@@ -1,0 +1,1823 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Latihan Soal ASAS - Pendidikan Pancasila Kelas VIII Bab 1</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            royal: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              200: '#bfdbfe',
+              300: '#93c5fd',
+              400: '#60a5fa',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a',
+              950: '#172554',
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    html, body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f8fafc;
+      color: #1e293b;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    /* Custom scrollbar biru elegan agar ramah iframe */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #dbeafe;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #2563eb;
+      border-radius: 9999px;
+    }
+    .option-card {
+      transition: all 0.18s ease-in-out;
+    }
+    .option-card:hover:not(.disabled-opt) {
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-blue-200 selection:text-blue-950">
+
+  <!-- HEADER UTAMA (URUTAN 3 BARIS PERSIS SESUAI PEDOMAN) -->
+  <header class="bg-gradient-to-r from-blue-900 via-blue-700 to-sky-700 text-white shadow-md border-b-4 border-blue-950">
+    <div class="max-w-6xl mx-auto px-4 py-5 sm:py-6 text-center">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-950/40 border border-sky-300/40 text-sky-100 text-xs font-semibold tracking-wider uppercase mb-2">
+        <span>Asesmen Sumatif Akhir Semester</span>
+        <span>•</span>
+        <span>Literasi &amp; Numerasi HOTS</span>
+      </div>
+      <h1 class="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight uppercase drop-shadow-sm">
+        LATIHAN SOAL ASAS
+      </h1>
+      <h2 class="text-base sm:text-lg md:text-xl font-bold text-sky-100 mt-0.5 uppercase tracking-wide">
+        PENDIDIKAN PANCASILA KELAS VIII
+      </h2>
+      <p class="text-xs sm:text-sm md:text-base font-medium text-blue-100 mt-1 max-w-3xl mx-auto">
+        BAB 1: PANCASILA DALAM KEHIDUPAN BANGSAKU
+      </p>
+    </div>
+  </header>
+
+  <!-- KONTEN UTAMA -->
+  <main class="flex-grow max-w-6xl w-full mx-auto px-3 sm:px-5 py-5">
+
+    <!-- LAYAR AWAL: PILIH MODE -->
+    <section id="start-screen" class="bg-white rounded-2xl shadow-sm border border-blue-200 p-5 sm:p-8 max-w-4xl mx-auto">
+      <div class="text-center mb-6">
+        <span class="inline-block px-3 py-1 rounded-lg bg-blue-100 text-blue-800 font-bold text-xs uppercase tracking-wider mb-2">
+          Petunjuk &amp; Pemilihan Mode
+        </span>
+        <h3 class="text-xl sm:text-2xl font-extrabold text-slate-900">
+          Selamat Datang di Ruang Latihan Interaktif
+        </h3>
+        <p class="text-sm sm:text-base text-slate-600 mt-2 max-w-2xl mx-auto">
+          Paket evaluasi ini memuat <strong>25 soal HOTS (C3–C6)</strong> dengan tingkat kesulitan Sedang hingga Sangat Sulit, terdiri atas <strong>18 Pilihan Ganda</strong> dan <strong>7 Pilihan Ganda Kompleks</strong> berbasis wacana, tabel numerasi, grafik, dan ilustrasi.
+        </p>
+      </div>
+
+      <!-- Ringkasan Komposisi -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-7">
+        <div class="bg-blue-50/90 border border-blue-200 rounded-xl p-3 text-center">
+          <div class="text-xs text-blue-700 font-semibold uppercase">Total Butir</div>
+          <div class="text-xl font-extrabold text-blue-950 mt-0.5">25 Soal</div>
+        </div>
+        <div class="bg-blue-50/90 border border-blue-200 rounded-xl p-3 text-center">
+          <div class="text-xs text-blue-700 font-semibold uppercase">Bentuk Soal</div>
+          <div class="text-sm sm:text-base font-extrabold text-blue-950 mt-1">18 PG &amp; 7 PGK</div>
+        </div>
+        <div class="bg-blue-50/90 border border-blue-200 rounded-xl p-3 text-center">
+          <div class="text-xs text-blue-700 font-semibold uppercase">Level Kognitif</div>
+          <div class="text-xl font-extrabold text-blue-950 mt-0.5">C3 – C6</div>
+        </div>
+        <div class="bg-blue-50/90 border border-blue-200 rounded-xl p-3 text-center">
+          <div class="text-xs text-blue-700 font-semibold uppercase">Waktu Latihan</div>
+          <div class="text-xl font-extrabold text-blue-950 mt-0.5">60 Menit</div>
+        </div>
+      </div>
+
+      <!-- Pilihan Mode -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+        <!-- Mode Belajar -->
+        <div class="rounded-2xl border-2 border-sky-300 bg-gradient-to-b from-sky-50/80 to-white p-5 flex flex-col justify-between hover:border-blue-600 transition shadow-sm">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="px-3 py-1 rounded-full bg-sky-600 text-white text-xs font-bold uppercase tracking-wide">
+                Direkomendasikan untuk Pemahaman
+              </span>
+              <svg class="w-7 h-7 text-sky-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+              </svg>
+            </div>
+            <h4 class="text-lg sm:text-xl font-extrabold text-slate-900">Mode Belajar</h4>
+            <ul class="text-sm text-slate-700 space-y-2 mt-3">
+              <li class="flex items-start gap-2">
+                <span class="text-sky-600 font-bold">✓</span>
+                <span>Tanpa batas waktu (timer nonaktif) agar kamu fokus menganalisis setiap stimulus.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-sky-600 font-bold">✓</span>
+                <span>Tersedia tombol <strong>"Periksa Jawaban"</strong> pada setiap nomor soal.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-sky-600 font-bold">✓</span>
+                <span>Langsung menampilkan status <strong>Benar / Salah</strong> beserta kunci dan pembahasan lengkap.</span>
+              </li>
+            </ul>
+          </div>
+          <button onclick="startQuiz('belajar')" class="mt-6 w-full py-3 px-4 rounded-xl bg-sky-600 hover:bg-sky-700 active:bg-sky-800 text-white font-bold text-sm sm:text-base shadow-sm transition cursor-pointer">
+            Mulai Mode Belajar →
+          </button>
+        </div>
+
+        <!-- Mode Latihan -->
+        <div class="rounded-2xl border-2 border-blue-400 bg-gradient-to-b from-blue-50/80 to-white p-5 flex flex-col justify-between hover:border-blue-800 transition shadow-sm">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="px-3 py-1 rounded-full bg-blue-900 text-blue-50 text-xs font-bold uppercase tracking-wide">
+                Simulasi Ujian ASAS
+              </span>
+              <svg class="w-7 h-7 text-blue-900" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h4 class="text-lg sm:text-xl font-extrabold text-slate-900">Mode Latihan (Ujian)</h4>
+            <ul class="text-sm text-slate-700 space-y-2 mt-3">
+              <li class="flex items-start gap-2">
+                <span class="text-blue-700 font-bold">✓</span>
+                <span>Dilengkapi penghitung waktu mundur <strong>60 menit</strong> layaknya ujian sesungguhnya.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-blue-700 font-bold">✓</span>
+                <span>Kunci jawaban &amp; pembahasan disembunyikan selama pengerjaan berlangsung.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-blue-700 font-bold">✓</span>
+                <span>Tersedia fitur <strong>Tandai Ragu-Ragu</strong>, rekap skor akhir, dan tinjauan pembahasan.</span>
+              </li>
+            </ul>
+          </div>
+          <button onclick="startQuiz('latihan')" class="mt-6 w-full py-3 px-4 rounded-xl bg-blue-800 hover:bg-blue-900 active:bg-blue-950 text-white font-bold text-sm sm:text-base shadow-sm transition cursor-pointer">
+            Mulai Mode Latihan →
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- LAYAR KUIS AKTIF -->
+    <section id="quiz-screen" class="hidden">
+      <!-- Top Control Bar -->
+      <div class="bg-white rounded-2xl border border-blue-200 shadow-sm p-3 sm:p-4 mb-4 flex flex-wrap items-center justify-between gap-3">
+        <div class="flex items-center gap-2 sm:gap-3">
+          <span id="mode-badge" class="px-3 py-1 rounded-lg text-xs font-extrabold uppercase tracking-wider bg-blue-100 text-blue-900 border border-blue-300">
+            MODE BELAJAR
+          </span>
+          <span id="progress-text" class="text-xs sm:text-sm font-semibold text-slate-600">
+            Terjawab: 0 / 25
+          </span>
+        </div>
+
+        <div class="flex items-center gap-2 sm:gap-3">
+          <!-- Timer (Hanya muncul di Mode Latihan) -->
+          <div id="timer-box" class="hidden items-center gap-1.5 px-3 py-1.5 rounded-xl bg-blue-50 border border-blue-300 text-blue-900 font-mono font-bold text-sm">
+            <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span id="timer-display">60:00</span>
+          </div>
+
+          <button onclick="openSwitchModal()" class="px-3 py-1.5 rounded-xl border border-blue-300 bg-blue-50 hover:bg-blue-100 text-blue-900 text-xs sm:text-sm font-semibold transition cursor-pointer">
+            Ganti Mode / Reset
+          </button>
+
+          <button id="finish-btn" onclick="openFinishModal()" class="px-3.5 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-bold shadow-sm transition cursor-pointer">
+            Selesai &amp; Nilai
+          </button>
+        </div>
+      </div>
+
+      <!-- Grid Utama: Kartu Soal (Kiri/Atas) + Navigasi Nomor (Kanan/Bawah) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 items-start">
+        
+        <!-- Area Soal (8 Kolom) -->
+        <div class="lg:col-span-8 bg-white rounded-2xl border border-blue-200 shadow-sm p-4 sm:p-6">
+          <!-- Header Soal: Nomor, Tipe, Level Kognitif, Kesulitan -->
+          <div class="flex flex-wrap items-center justify-between gap-2 pb-3 mb-4 border-b border-blue-100">
+            <div class="flex items-center gap-2">
+              <span id="q-number-badge" class="px-3 py-1 rounded-xl bg-blue-700 text-white font-extrabold text-sm">
+                Soal 1 dari 25
+              </span>
+              <span id="q-type-badge" class="px-2.5 py-1 rounded-lg bg-blue-100 text-blue-900 font-bold text-xs">
+                Pilihan Ganda
+              </span>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <span id="q-cog-badge" class="px-2.5 py-1 rounded-lg bg-sky-50 text-sky-800 border border-sky-200 font-bold text-xs">
+                C4 (Analisis)
+              </span>
+              <span id="q-diff-badge" class="px-2.5 py-1 rounded-lg bg-indigo-50 text-indigo-800 border border-indigo-200 font-bold text-xs">
+                Sulit
+              </span>
+            </div>
+          </div>
+
+          <!-- Instruksi Khusus PG Kompleks -->
+          <div id="pgk-instruction" class="hidden mb-4 p-3 rounded-xl bg-sky-50 border-l-4 border-sky-600 text-sky-950 text-xs sm:text-sm font-semibold flex items-center gap-2">
+            <svg class="w-5 h-5 text-sky-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span id="pgk-instruction-text">PILIHAN GANDA KOMPLEKS — Pilihlah lebih dari satu pernyataan yang benar!</span>
+          </div>
+
+          <!-- Kontainer Stimulus -->
+          <div id="stimulus-container" class="mb-5"></div>
+
+          <!-- Pertanyaan -->
+          <div id="question-text" class="text-slate-900 font-semibold text-sm sm:text-base leading-relaxed mb-4"></div>
+
+          <!-- Opsi Jawaban -->
+          <div id="options-container" class="space-y-2.5"></div>
+
+          <!-- Tombol Aksi Soal (Mode Belajar: Periksa Jawaban | Mode Latihan: Tandai Ragu-Ragu) -->
+          <div class="mt-5 pt-4 border-t border-blue-100 flex flex-wrap items-center justify-between gap-3">
+            <div class="flex items-center gap-2">
+              <button id="check-answer-btn" onclick="checkCurrentAnswer()" class="hidden px-4 py-2.5 rounded-xl bg-blue-700 hover:bg-blue-800 text-white font-bold text-xs sm:text-sm shadow-sm transition cursor-pointer">
+                Periksa Jawaban
+              </button>
+              <label id="doubt-checkbox-wrap" class="hidden inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-amber-50 border border-amber-300 text-amber-900 text-xs sm:text-sm font-semibold cursor-pointer select-none">
+                <input type="checkbox" id="doubt-checkbox" onchange="toggleDoubt()" class="w-4 h-4 accent-amber-600 rounded cursor-pointer" />
+                <span>Tandai Ragu-Ragu</span>
+              </label>
+            </div>
+
+            <div class="flex items-center gap-2 ml-auto">
+              <button id="prev-btn" onclick="prevQuestion()" class="px-3.5 py-2 rounded-xl border border-slate-300 bg-white hover:bg-slate-50 disabled:opacity-40 text-slate-700 font-semibold text-xs sm:text-sm transition cursor-pointer">
+                ← Sebelumnya
+              </button>
+              <button id="next-btn" onclick="nextQuestion()" class="px-4 py-2 rounded-xl bg-blue-700 hover:bg-blue-800 disabled:opacity-40 text-white font-bold text-xs sm:text-sm shadow-sm transition cursor-pointer">
+                Berikutnya →
+              </button>
+            </div>
+          </div>
+
+          <!-- Kotak Pembahasan (Muncul saat dicek di Mode Belajar atau saat Review Mode Latihan) -->
+          <div id="explanation-box" class="hidden mt-5 rounded-2xl p-4 sm:p-5 border-2">
+            <div class="flex items-center gap-2 mb-2">
+              <span id="exp-status-icon" class="text-lg"></span>
+              <h4 id="exp-status-title" class="font-extrabold text-sm sm:text-base"></h4>
+            </div>
+            <p id="exp-key-text" class="text-xs sm:text-sm font-bold mb-2"></p>
+            <div id="exp-detail-text" class="text-xs sm:text-sm leading-relaxed text-slate-800 space-y-1.5"></div>
+          </div>
+        </div>
+
+        <!-- Panel Navigasi Nomor Soal (4 Kolom) -->
+        <aside class="lg:col-span-4 bg-white rounded-2xl border border-blue-200 shadow-sm p-4 sm:p-5 lg:sticky lg:top-4">
+          <div class="flex items-center justify-between mb-3">
+            <h3 class="font-extrabold text-slate-900 text-sm sm:text-base">Navigasi Nomor Soal</h3>
+            <span class="text-xs font-semibold text-blue-700">1 – 25</span>
+          </div>
+
+          <div id="nav-grid" class="grid grid-cols-5 gap-2 mb-4"></div>
+
+          <!-- Legenda Warna -->
+          <div class="border-t border-blue-100 pt-3 space-y-1.5 text-xs text-slate-600">
+            <div class="flex items-center gap-2">
+              <span class="w-3.5 h-3.5 rounded bg-blue-700 inline-block"></span>
+              <span>Sedang dibuka</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="w-3.5 h-3.5 rounded bg-blue-100 border border-blue-400 inline-block"></span>
+              <span>Sudah dijawab</span>
+            </div>
+            <div id="legend-doubt" class="flex items-center gap-2">
+              <span class="w-3.5 h-3.5 rounded bg-amber-300 border border-amber-600 inline-block"></span>
+              <span>Ditandai ragu-ragu</span>
+            </div>
+            <div id="legend-eval" class="hidden space-y-1.5">
+              <div class="flex items-center gap-2">
+                <span class="w-3.5 h-3.5 rounded bg-emerald-500 inline-block"></span>
+                <span>Jawaban Benar</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="w-3.5 h-3.5 rounded bg-rose-500 inline-block"></span>
+                <span>Jawaban Salah</span>
+              </div>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="w-3.5 h-3.5 rounded bg-slate-100 border border-slate-300 inline-block"></span>
+              <span>Belum dijawab</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- LAYAR HASIL AKHIR (MODE LATIHAN / REKAP) -->
+    <section id="result-screen" class="hidden bg-white rounded-2xl border border-blue-200 shadow-sm p-5 sm:p-8 max-w-4xl mx-auto">
+      <div class="text-center border-b border-blue-100 pb-6">
+        <span class="inline-block px-3 py-1 rounded-full bg-blue-100 text-blue-900 font-bold text-xs uppercase tracking-wider mb-2">
+          Hasil Evaluasi ASAS Bab 1
+        </span>
+        <h3 class="text-2xl sm:text-3xl font-extrabold text-slate-900">Rekapitulasi Capaian Belajar</h3>
+        <p id="result-subtitle" class="text-sm text-slate-600 mt-1">
+          Berikut adalah hasil analisis pengerjaan soal literasi dan numerasi Pendidikan Pancasila Kelas VIII.
+        </p>
+
+        <!-- Kartu Skor Utama -->
+        <div class="mt-6 inline-flex flex-col items-center justify-center w-40 h-40 rounded-full bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-900 text-white shadow-lg border-4 border-blue-100">
+          <span class="text-xs font-bold uppercase tracking-wider text-sky-200">Skor Akhir</span>
+          <span id="final-score" class="text-4xl sm:text-5xl font-extrabold mt-0.5">0</span>
+          <span id="final-predicate" class="text-xs font-semibold mt-1 px-2.5 py-0.5 rounded-full bg-blue-950/50">Predikat</span>
+        </div>
+      </div>
+
+      <!-- Rincian Statistik -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 my-6">
+        <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-3.5 text-center">
+          <div class="text-xs font-bold text-emerald-700 uppercase">Jawaban Benar</div>
+          <div id="stat-correct" class="text-2xl font-extrabold text-emerald-900 mt-1">0</div>
+        </div>
+        <div class="bg-rose-50 border border-rose-200 rounded-xl p-3.5 text-center">
+          <div class="text-xs font-bold text-rose-700 uppercase">Jawaban Salah</div>
+          <div id="stat-wrong" class="text-2xl font-extrabold text-rose-900 mt-1">0</div>
+        </div>
+        <div class="bg-blue-50 border border-blue-200 rounded-xl p-3.5 text-center">
+          <div class="text-xs font-bold text-blue-700 uppercase">PG Biasa (18)</div>
+          <div id="stat-pg" class="text-2xl font-extrabold text-blue-950 mt-1">0/18</div>
+        </div>
+        <div class="bg-sky-50 border border-sky-200 rounded-xl p-3.5 text-center">
+          <div class="text-xs font-bold text-sky-700 uppercase">PG Kompleks (7)</div>
+          <div id="stat-pgk" class="text-2xl font-extrabold text-sky-950 mt-1">0/7</div>
+        </div>
+      </div>
+
+      <!-- Analisis Capaian Submateri & HOTS -->
+      <div class="bg-blue-50/60 border border-blue-200 rounded-2xl p-4 sm:p-5 mb-6">
+        <h4 class="font-extrabold text-slate-900 text-sm sm:text-base mb-3">Analisis Penguasaan Subbab Materi</h4>
+        <div id="topic-analysis" class="space-y-3 text-xs sm:text-sm"></div>
+      </div>
+
+      <!-- Tombol Aksi Hasil -->
+      <div class="flex flex-wrap items-center justify-center gap-3">
+        <button onclick="enterReviewMode()" class="px-5 py-3 rounded-xl bg-blue-700 hover:bg-blue-800 text-white font-bold text-sm sm:text-base shadow-sm transition cursor-pointer">
+          Lihat Pembahasan Lengkap (1–25)
+        </button>
+        <button onclick="resetToHome()" class="px-5 py-3 rounded-xl border-2 border-blue-400 bg-white hover:bg-blue-50 text-blue-900 font-bold text-sm sm:text-base transition cursor-pointer">
+          Ulangi / Pilih Mode Lain
+        </button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MODAL KONFIRMASI KUSTOM (PENGGANTI ALERT/CONFIRM) -->
+  <div id="custom-modal" class="hidden fixed inset-0 z-50 bg-slate-950/50 backdrop-blur-xs flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl border border-blue-200 max-w-md w-full p-5 sm:p-6 shadow-xl">
+      <h4 id="modal-title" class="text-lg font-extrabold text-slate-900">Konfirmasi</h4>
+      <p id="modal-message" class="text-sm text-slate-600 mt-2 leading-relaxed"></p>
+      <div class="mt-5 flex items-center justify-end gap-2.5">
+        <button onclick="closeModal()" class="px-4 py-2 rounded-xl border border-slate-300 text-slate-700 font-semibold text-sm hover:bg-slate-50 cursor-pointer">
+          Batal
+        </button>
+        <button id="modal-confirm-btn" class="px-4 py-2 rounded-xl bg-blue-700 hover:bg-blue-800 text-white font-bold text-sm cursor-pointer">
+          Ya, Lanjutkan
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER WAJIB SESUAI PEDOMAN -->
+  <footer class="bg-blue-950 text-blue-100 border-t-4 border-sky-500 mt-8">
+    <div class="max-w-6xl mx-auto px-4 py-5 text-center text-xs sm:text-sm space-y-1">
+      <p class="font-medium text-sky-200">
+        Sumber Belajar: Buku Pendidikan Pancasila SMP/MTs Kelas VIII (Kemendikbudristek RI, 2023)
+      </p>
+      <p class="font-bold text-sky-400 tracking-wide">
+        <a href="https://www.pakwaronline.com" target="_blank" rel="noopener noreferrer" class="hover:underline">www.pakwaronline.com</a>
+      </p>
+      <p class="text-blue-300/80 italic font-medium">
+        Shared &amp; Educated
+      </p>
+    </div>
+  </footer>
+
+  <!-- DATA & LOGIKA APLIKASI -->
+  <script>
+    /**
+     * BANK SOAL ASAS PENDIDIKAN PANCASILA KELAS VIII - BAB 1
+     * "Pancasila dalam Kehidupan Bangsaku"
+     * Sebaran:
+     * - Subbab A (8 soal: 6 PG + 2 PGK) -> Nomor 1 - 8
+     * - Subbab B (8 soal: 6 PG + 2 PGK) -> Nomor 9 - 16
+     * - Subbab C (9 soal: 6 PG + 3 PGK) -> Nomor 17 - 25
+     */
+    const questionsData = [
+      // ==================== SUBBAB A: PANCASILA SEBAGAI DASAR NEGARA (8 SOAL: 6 PG + 2 PGK) ====================
+
+      // SOAL 1 (C4 - Sedang - PG)
+      {
+        id: 1,
+        subbab: "A. Pancasila sebagai Dasar Negara dalam Kehidupanku",
+        type: "pg",
+        cognitive: "C4 (Analisis)",
+        difficulty: "Sedang",
+        stimulus: `
+          <div class="bg-blue-50/70 border border-blue-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-blue-950 mb-2">Perhatikan ilustrasi gedung pencakar langit dan analogi fondasi berikut!</p>
+            <div class="flex flex-col sm:flex-row items-center gap-4">
+              <div class="shrink-0 text-center">
+                <svg class="w-36 h-32 rounded-xl border border-blue-300 shadow-xs" viewBox="0 0 180 155" fill="none">
+                  <rect width="180" height="155" fill="#eff6ff"/>
+                  <!-- Langit & Awan -->
+                  <circle cx="145" cy="24" r="10" fill="#fde047"/>
+                  <!-- Gedung Pencakar Langit (NKRI) -->
+                  <rect x="65" y="18" width="50" height="86" rx="3" fill="#1d4ed8"/>
+                  <rect x="73" y="26" width="12" height="10" rx="1" fill="#bae6fd"/>
+                  <rect x="95" y="26" width="12" height="10" rx="1" fill="#bae6fd"/>
+                  <rect x="73" y="42" width="12" height="10" rx="1" fill="#bae6fd"/>
+                  <rect x="95" y="42" width="12" height="10" rx="1" fill="#bae6fd"/>
+                  <rect x="73" y="58" width="12" height="10" rx="1" fill="#bae6fd"/>
+                  <rect x="95" y="58" width="12" height="10" rx="1" fill="#bae6fd"/>
+                  <rect x="73" y="74" width="12" height="10" rx="1" fill="#bae6fd"/>
+                  <rect x="95" y="74" width="12" height="10" rx="1" fill="#bae6fd"/>
+                  <text x="90" y="98" font-size="7.5" font-weight="bold" fill="#ffffff" text-anchor="middle">GEDUNG NKRI</text>
+                  <!-- Permukaan Tanah -->
+                  <rect x="10" y="104" width="160" height="6" fill="#0284c7"/>
+                  <!-- Fondasi Bawah Tanah (Pancasila) -->
+                  <rect x="35" y="110" width="110" height="30" rx="4" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5"/>
+                  <line x1="55" y1="110" x2="55" y2="140" stroke="#93c5fd" stroke-width="1.5"/>
+                  <line x1="90" y1="110" x2="90" y2="140" stroke="#93c5fd" stroke-width="1.5"/>
+                  <line x1="125" y1="110" x2="125" y2="140" stroke="#93c5fd" stroke-width="1.5"/>
+                  <text x="90" y="128" font-size="7.5" font-weight="bold" fill="#fde047" text-anchor="middle">FONDASI: PANCASILA</text>
+                </svg>
+                <span class="block text-[10px] text-slate-500 mt-1">Ilustrasi Fondasi Gedung (Adaptasi Unsplash/Gints Gailis)</span>
+              </div>
+              <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                Sebuah gedung pencakar langit mampu berdiri tegak menjulang tinggi dan tahan terhadap guncangan karena ditopang oleh fondasi beton yang menghujam kuat ke dalam tanah. Pada 1 Juni 1945, Ir. Sukarno menyebut dasar negara dengan istilah <em>philosophische grondslag</em> sebagai fundamen berdirinya negara Indonesia merdeka.
+              </p>
+            </div>
+          </div>
+        `,
+        question: "Makna paling tepat dari perumpamaan fondasi gedung tersebut terhadap kedudukan Pancasila sebagai dasar negara adalah ....",
+        options: [
+          "seluruh aturan hukum dan kebijakan penyelenggara negara wajib bertumpu pada nilai Pancasila",
+          "kemegahan bangunan fisik ibu kota negara menjadi ukuran utama keberhasilan pembangunan bangsa",
+          "fondasi negara dapat diganti sewaktu-waktu mengikuti perubahan struktur lembaga pemerintahan",
+          "nilai Pancasila hanya berlaku mengikat bagi pejabat pusat yang menyusun peraturan perundangan"
+        ],
+        answer: [0],
+        explanation: "Sebagai <em>philosophische grondslag</em> (fondasi/dasar negara), Pancasila menjadi tumpuan utama berdirinya NKRI sehingga setiap penyelenggaraan negara dan peraturan perundang-undangan wajib berlandaskan nilai Pancasila."
+      },
+
+      // SOAL 2 (C5 - Sangat Sulit - PG)
+      {
+        id: 2,
+        subbab: "A. Pancasila sebagai Dasar Negara dalam Kehidupanku",
+        type: "pg",
+        cognitive: "C5 (Evaluasi)",
+        difficulty: "Sangat Sulit",
+        stimulus: `
+          <div class="bg-sky-50/80 border border-sky-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-sky-950 mb-2">Cermati kutipan pemikiran Mohammad Hatta mengenai susunan sila-sila Pancasila berikut!</p>
+            <blockquote class="italic text-slate-800 text-xs sm:text-sm leading-relaxed border-l-4 border-blue-600 pl-3">
+              "Ketuhanan Yang Maha Esa menjadi dasar yang memimpin cita-cita kenegaraan kepada jalan kebenaran. Kemanusiaan yang Adil dan Beradab merupakan praktik hidup yang dilandasi dasar Ketuhanan. Sila pertama dan kedua menjadi landasan moral, sedangkan sila ketiga, keempat, dan kelima merupakan landasan politik sehingga penyelenggaraan negara mendapat dasar moral yang kuat."
+            </blockquote>
+            <div class="text-[11px] text-slate-500 mt-2 text-right">Sumber: Uraian Pancasila, Mohammad Hatta dkk. (1984)</div>
+          </div>
+        `,
+        question: "Berdasarkan pandangan Bung Hatta tersebut, kesimpulan kritis yang paling tepat apabila praktik politik suatu negara dilepaskan dari landasan sila pertama dan kedua adalah ....",
+        options: [
+          "pengambilan keputusan politik berisiko kehilangan arah kebenaran moral dan merendahkan martabat manusia",
+          "proses musyawarah perwakilan berjalan lebih cepat karena tidak terikat oleh pertimbangan etika agama",
+          "pemerintah daerah memperoleh kewenangan penuh mengatur perekonomian tanpa pengawasan pemerintah pusat",
+          "persatuan bangsa tetap kokoh selama pembangunan infrastruktur fisik dijalankan secara merata di daerah"
+        ],
+        answer: [0],
+        explanation: "Bung Hatta menegaskan bahwa sila ke-1 dan ke-2 merupakan landasan moral bagi sila ke-3, ke-4, dan ke-5 (landasan politik). Jika politik dilepaskan dari moral Ketuhanan dan Kemanusiaan, kebijakan negara berisiko menyimpang dari kebenaran dan keadilan."
+      },
+
+      // SOAL 3 (C4 - Sedang - PG)
+      {
+        id: 3,
+        subbab: "A. Pancasila sebagai Dasar Negara dalam Kehidupanku",
+        type: "pg",
+        cognitive: "C4 (Analisis)",
+        difficulty: "Sedang",
+        stimulus: `
+          <div class="bg-white border border-blue-200 rounded-xl p-4 overflow-x-auto">
+            <p class="text-xs sm:text-sm font-bold text-blue-950 mb-2">Perhatikan tabel keterkaitan sila Pancasila dengan pasal-pasal UUD NRI Tahun 1945 berikut!</p>
+            <table class="w-full text-xs sm:text-sm text-left border-collapse">
+              <thead>
+                <tr class="bg-blue-100 text-blue-950">
+                  <th class="p-2 border border-blue-200">Sila Pancasila</th>
+                  <th class="p-2 border border-blue-200">Pasal UUD NRI 1945</th>
+                  <th class="p-2 border border-blue-200">Wujud Penyelenggaraan Negara</th>
+                </tr>
+              </thead>
+              <tbody class="text-slate-700">
+                <tr>
+                  <td class="p-2 border border-blue-200 font-semibold">Sila Pertama</td>
+                  <td class="p-2 border border-blue-200">Pasal 29 ayat (1) &amp; (2)</td>
+                  <td class="p-2 border border-blue-200">Menjamin kemerdekaan beragama &amp; kerukunan umat</td>
+                </tr>
+                <tr class="bg-blue-50/40">
+                  <td class="p-2 border border-blue-200 font-semibold">Sila Kedua</td>
+                  <td class="p-2 border border-blue-200">Pasal 28A–28J</td>
+                  <td class="p-2 border border-blue-200">Melindungi hak asasi dan martabat setiap warga negara</td>
+                </tr>
+                <tr>
+                  <td class="p-2 border border-blue-200 font-semibold">Sila Keempat</td>
+                  <td class="p-2 border border-blue-200">Pasal 20 ayat (2)</td>
+                  <td class="p-2 border border-blue-200">Pembahasan RUU bersama antara DPR dan Presiden</td>
+                </tr>
+                <tr class="bg-blue-50/40">
+                  <td class="p-2 border border-blue-200 font-semibold">Sila Kelima</td>
+                  <td class="p-2 border border-blue-200">Pasal 34 ayat (1)–(3)</td>
+                  <td class="p-2 border border-blue-200">Pemeliharaan fakir miskin dan jaminan sosial rakyat</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        `,
+        question: "Ketika DPR bersama Presiden melakukan pembahasan mendalam terhadap Rancangan Undang-Undang Perlindungan Data Pribadi hingga mencapai kesepakatan bersama, praktik ketatanegaraan tersebut mencerminkan penjabaran ....",
+        options: [
+          "sila pertama dalam Pasal 29 mengenai pembinaan kerukunan hidup umat beragama",
+          "sila kedua dalam Pasal 28A mengenai hak mempertahankan hidup dan kehidupan",
+          "sila keempat dalam Pasal 20 ayat (2) mengenai musyawarah pembentukan undang-undang",
+          "sila kelima dalam Pasal 34 mengenai penyediaan fasilitas pelayanan kesehatan umum"
+        ],
+        answer: [2],
+        explanation: "Sesuai Pasal 20 ayat (2) UUD NRI Tahun 1945, setiap rancangan undang-undang dibahas bersama oleh DPR dan Presiden untuk mendapat persetujuan bersama sebagai perwujudan nilai musyawarah mufakat dalam Sila Keempat."
+      },
+
+      // SOAL 4 (C4 - Sulit - PGK)
+      {
+        id: 4,
+        subbab: "A. Pancasila sebagai Dasar Negara dalam Kehidupanku",
+        type: "pgk",
+        cognitive: "C4 (Analisis)",
+        difficulty: "Sulit",
+        instructionText: "PILIHAN GANDA KOMPLEKS — Pilihlah dua pernyataan yang paling tepat!",
+        stimulus: `
+          <div class="bg-blue-50/70 border border-blue-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-blue-950 mb-2">Cermati informasi mengenai fungsi negara berdasarkan nilai Ketuhanan Yang Maha Esa berikut!</p>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+              Dalam negara yang berdasar atas Ketuhanan Yang Maha Esa, tindakan pemerintah wajib diarahkan untuk mengayomi rakyat, membela keadilan, menentang kecurangan, serta membina umat beragama agar hidup rukun dan bekerja sama membangun kesalehan sosial.
+            </p>
+          </div>
+        `,
+        question: "Berdasarkan paparan di atas, pilihlah dua pernyataan yang tepat mengenai kewajiban negara dalam mengamalkan sila pertama Pancasila!",
+        options: [
+          "Negara memfasilitasi dialog antarumat beragama untuk memperkuat kerukunan dan kesalehan sosial",
+          "Negara menyusun kebijakan publik yang jujur, adil, dan melindungi segenap warga tanpa diskriminasi",
+          "Negara menyeragamkan tata cara peribadatan seluruh warga agar tercipta ketertiban di ruang publik",
+          "Negara membebaskan aparat penegak hukum dari pengawasan moral selama target pembangunan tercapai"
+        ],
+        answer: [0, 1],
+        explanation: "Pernyataan 1 dan 2 tepat. Pengakuan terhadap Tuhan Yang Maha Esa mewajibkan negara membina kerukunan antarumat beragama (kesalehan sosial) serta menjalankan pemerintahan secara jujur dan adil."
+      },
+
+      // SOAL 5 (C3 - Sedang - PG)
+      {
+        id: 5,
+        subbab: "A. Pancasila sebagai Dasar Negara dalam Kehidupanku",
+        type: "pg",
+        cognitive: "C3 (Aplikasi)",
+        difficulty: "Sedang",
+        stimulus: `
+          <div class="bg-sky-50/70 border border-sky-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-sky-950 mb-2">Perhatikan situasi dalam rapat pengurus OSIS berikut ini!</p>
+            <div class="flex flex-col sm:flex-row items-center gap-4">
+              <svg class="w-36 h-28 shrink-0 rounded-xl border border-sky-300 shadow-xs" viewBox="0 0 180 140" fill="none">
+                <rect width="180" height="140" fill="#e0f2fe"/>
+                <rect x="20" y="14" width="140" height="24" rx="6" fill="#1d4ed8"/>
+                <text x="90" y="29" font-size="8" font-weight="bold" fill="#ffffff" text-anchor="middle">MUSYAWARAH OSIS</text>
+                <!-- Meja & Anggota Rapat -->
+                <rect x="35" y="88" width="110" height="32" rx="6" fill="#93c5fd" stroke="#2563eb" stroke-width="1.5"/>
+                <!-- Ketua mendengarkan -->
+                <circle cx="55" cy="64" r="10" fill="#1e40af"/>
+                <path d="M40 88 C40 76 70 76 70 88 Z" fill="#2563eb"/>
+                <!-- Anggota mengangkat tangan -->
+                <circle cx="90" cy="64" r="10" fill="#0284c7"/>
+                <path d="M75 88 C75 76 105 76 105 88 Z" fill="#0ea5e9"/>
+                <line x1="103" y1="78" x2="110" y2="54" stroke="#0284c7" stroke-width="3.5" stroke-linecap="round"/>
+                <!-- Anggota mencatat -->
+                <circle cx="128" cy="64" r="10" fill="#3b82f6"/>
+                <path d="M113 88 C113 76 143 76 143 88 Z" fill="#60a5fa"/>
+              </svg>
+              <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                Dalam rapat penyusunan program kerja OSIS SMP Tunas Bangsa, ketua OSIS mempersilakan setiap perwakilan kelas menyampaikan usulan kegiatan secara bergantian. Ketika muncul dua usulan yang berbeda, rapat membahas manfaat keduanya hingga tercapai kesepakatan bersama tanpa ada pihak yang merasa dipaksa.
+              </p>
+            </div>
+          </div>
+        `,
+        question: "Sikap yang ditunjukkan oleh pengurus OSIS pada situasi tersebut merupakan wujud pengamalan Pancasila sebagai dasar negara di lingkungan sekolah, khususnya ....",
+        options: [
+          "menerapkan prinsip musyawarah mufakat tanpa dominasi pimpinan dalam mengambil keputusan organisasi",
+          "mengutamakan kecepatan pengambilan keputusan dengan mengabaikan masukan dari perwakilan kelas",
+          "memberikan hak suara istimewa kepada pengurus inti agar program kerja segera dapat dilaksanakan",
+          "menyerahkan seluruh penyusunan program kegiatan siswa kepada keputusan pembina OSIS sekolah"
+        ],
+        answer: [0],
+        explanation: "Pengamalan Pancasila sebagai dasar negara di lingkungan sekolah diwujudkan melalui rapat OSIS yang demokratis: ketua tidak mendominasi, memberi ruang berpendapat, dan mengambil keputusan secara mufakat."
+      },
+
+      // SOAL 6 (C5 - Sulit - PG)
+      {
+        id: 6,
+        subbab: "A. Pancasila sebagai Dasar Negara dalam Kehidupanku",
+        type: "pg",
+        cognitive: "C5 (Evaluasi)",
+        difficulty: "Sulit",
+        stimulus: `
+          <div class="bg-indigo-50/70 border border-indigo-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-indigo-950 mb-2">Cermati studi kasus permasalahan sosial di lingkungan rukun tetangga berikut!</p>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+              Di RT 04 Kelurahan Harapan Jaya berlaku kesepakatan warga untuk tidak menyalakan pengeras suara dengan volume tinggi di atas pukul 21.00 WIB demi menjaga ketenangan istirahat. Namun, seorang warga kerap memutar musik keras hingga larut malam dengan alasan berada di dalam rumahnya sendiri sehingga tetangga sekitar merasa terganggu.
+            </p>
+          </div>
+        `,
+        question: "Evaluasi yang paling tepat terhadap alasan warga tersebut berdasarkan nilai-nilai Pancasila sebagai dasar negara di masyarakat adalah ....",
+        options: [
+          "kebebasan pribadi di rumah sendiri tetap dibatasi oleh aturan bersama dan hak kenyamanan tetangga",
+          "aktivitas di dalam rumah pribadi sepenuhnya menjadi hak mutlak pemilik tanpa perlu menghiraukan warga",
+          "kesepakatan warga di tingkat RT hanya bersifat imbauan moral sehingga bebas untuk tidak dipatuhi",
+          "tetangga yang merasa terganggu sebaiknya pindah tempat tinggal agar tidak memicu perselisihan warga"
+        ],
+        answer: [0],
+        explanation: "Dalam bermasyarakat, setiap warga wajib mematuhi peraturan/kesepakatan bersama yang dilandasi Pancasila. Hak pribadi di rumah sendiri dibatasi oleh kewajiban menghormati hak ketenangan dan kenyamanan orang lain."
+      },
+
+      // SOAL 7 (C4 - Sulit - PGK)
+      {
+        id: 7,
+        subbab: "A. Pancasila sebagai Dasar Negara dalam Kehidupanku",
+        type: "pgk",
+        cognitive: "C4 (Analisis)",
+        difficulty: "Sulit",
+        instructionText: "PILIHAN GANDA KOMPLEKS — Pilihlah tiga pernyataan yang paling sesuai!",
+        stimulus: `
+          <div class="bg-white border border-blue-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-blue-950 mb-2">Perhatikan grafik hasil survei pembiasaan aturan keluarga berbasis nilai Pancasila di SMP Harapan Bangsa (100 responden siswa)!</p>
+            <svg class="w-full max-w-lg h-44 mx-auto" viewBox="0 0 420 175" fill="none">
+              <rect width="420" height="175" rx="10" fill="#eff6ff"/>
+              <line x1="150" y1="25" x2="150" y2="145" stroke="#1e40af" stroke-width="1.5"/>
+              <!-- Bar 1: Disiplin Ibadah 92% -->
+              <text x="144" y="45" font-size="8.5" font-weight="bold" fill="#1e293b" text-anchor="end">Disiplin Ibadah Keluarga</text>
+              <rect x="150" y="34" width="211" height="16" rx="4" fill="#1d4ed8"/>
+              <text x="366" y="45" font-size="8.5" font-weight="bold" fill="#1e3a8a">92%</text>
+              <!-- Bar 2: Membagi Tugas Rumah 78% -->
+              <text x="144" y="75" font-size="8.5" font-weight="bold" fill="#1e293b" text-anchor="end">Pembagian Tugas Adil</text>
+              <rect x="150" y="64" width="179" height="16" rx="4" fill="#2563eb"/>
+              <text x="334" y="75" font-size="8.5" font-weight="bold" fill="#1e3a8a">78%</text>
+              <!-- Bar 3: Musyawarah Keluarga 64% -->
+              <text x="144" y="105" font-size="8.5" font-weight="bold" fill="#1e293b" text-anchor="end">Musyawarah Liburan/Aturan</text>
+              <rect x="150" y="94" width="147" height="16" rx="4" fill="#0284c7"/>
+              <text x="302" y="105" font-size="8.5" font-weight="bold" fill="#1e3a8a">64%</text>
+              <!-- Bar 4: Jadwal Belajar Mandiri 85% -->
+              <text x="144" y="135" font-size="8.5" font-weight="bold" fill="#1e293b" text-anchor="end">Tanggung Jawab Belajar</text>
+              <rect x="150" y="124" width="195" height="16" rx="4" fill="#3b82f6"/>
+              <text x="350" y="135" font-size="8.5" font-weight="bold" fill="#1e3a8a">85%</text>
+              <text x="210" y="164" font-size="7.5" fill="#1e40af" text-anchor="middle">Sumber: Olah Data Survei Karakter Siswa SMP Harapan Bangsa (2024)</text>
+            </svg>
+          </div>
+        `,
+        question: "Berdasarkan data grafik survei di atas, pilihlah tiga kesimpulan analisis yang paling tepat!",
+        options: [
+          "Pembiasaan nilai sila pertama melalui disiplin ibadah memiliki persentase penerapan tertinggi di keluarga",
+          "Praktik musyawarah keluarga masih perlu ditingkatkan karena persentasenya paling rendah dibanding aspek lain",
+          "Pembagian tugas rumah secara adil mencerminkan penerapan nilai sila kelima di lingkungan terkecil",
+          "Mayoritas siswa belum menjalankan tanggung jawab belajar mandiri karena angkanya berada di bawah lima puluh persen"
+        ],
+        answer: [0, 1, 2],
+        explanation: "Pernyataan 1 benar (92% tertinggi), pernyataan 2 benar (64% terendah dibanding 92%, 85%, dan 78%), dan pernyataan 3 benar (keadilan pembagian tugas = Sila ke-5). Pernyataan 4 salah karena belajar mandiri mencapai 85%."
+      },
+
+      // SOAL 8 (C6 - Sangat Sulit - PG)
+      {
+        id: 8,
+        subbab: "A. Pancasila sebagai Dasar Negara dalam Kehidupanku",
+        type: "pg",
+        cognitive: "C6 (Kreasi)",
+        difficulty: "Sangat Sulit",
+        stimulus: `
+          <div class="bg-blue-50/70 border border-blue-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-blue-950 mb-2">Cermati situasi pergaulan antarsiswa di lingkungan sekolah berikut!</p>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+              Dalam rangka mengamalkan Pancasila sebagai dasar negara di sekolah, setiap siswa wajib menghormati harkat dan martabat teman serta menjauhi tindakan mengejek, mengintimidasi, maupun mengucilkan sesama. Di kelas VIII-C, seorang siswa pindahan dari luar pulau tampak pendiam karena logat daerahnya sering ditirukan secara bercanda oleh beberapa teman.
+            </p>
+          </div>
+        `,
+        question: "Rancangan langkah tindakan paling efektif yang dapat kamu gagas selaku pengurus kelas untuk membangun lingkungan kelas yang bermartabat adalah ....",
+        options: [
+          "mengajak diskusi kelas tentang empati lalu membentuk kelompok belajar campuran yang inklusif",
+          "meminta siswa pindahan tersebut segera menyesuaikan logat bicaranya agar tidak lagi diejek",
+          "membiarkan candaan tersebut berlalu karena dianggap bagian dari keakraban remaja sehari-hari",
+          "mengelompokkan siswa berdasarkan kesamaan daerah asal supaya tidak terjadi kesalahpahaman"
+        ],
+        answer: [0],
+        explanation: "Mengajak refleksi empati bersama serta membentuk kelompok belajar campuran adalah langkah konstruktif (C6) yang memulihkan martabat manusia (Sila ke-2) dan mempererat persatuan (Sila ke-3)."
+      },
+
+      // ==================== SUBBAB B: PANCASILA SEBAGAI PANDANGAN HIDUP BANGSA (8 SOAL: 6 PG + 2 PGK) ====================
+
+      // SOAL 9 (C4 - Sedang - PG)
+      {
+        id: 9,
+        subbab: "B. Pancasila sebagai Pandangan Hidup Bangsa dalam Kehidupanku",
+        type: "pg",
+        cognitive: "C4 (Analisis)",
+        difficulty: "Sedang",
+        stimulus: `
+          <div class="bg-sky-50/70 border border-sky-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-sky-950 mb-2">Cermati kutipan kisah perjuangan atlet nasional berikut dengan saksama!</p>
+            <div class="flex flex-col sm:flex-row items-center gap-4">
+              <div class="shrink-0 text-center">
+                <svg class="w-36 h-28 rounded-xl border border-sky-300 shadow-xs" viewBox="0 0 180 140" fill="none">
+                  <rect width="180" height="140" fill="#dbeafe"/>
+                  <!-- Podium Juara 1 Olimpiade -->
+                  <rect x="42" y="96" width="96" height="32" rx="4" fill="#1d4ed8"/>
+                  <text x="90" y="114" font-size="8" font-weight="bold" fill="#fde047" text-anchor="middle">EMAS OLIMPIADE 2016</text>
+                  <!-- Atlet 1 (Tontowi) -->
+                  <circle cx="68" cy="54" r="11" fill="#f59e0b"/>
+                  <path d="M52 96 C52 72 84 72 84 96 Z" fill="#dc2626"/>
+                  <!-- Atlet 2 (Liliyana) -->
+                  <circle cx="112" cy="54" r="11" fill="#f59e0b"/>
+                  <path d="M96 96 C96 72 128 72 128 96 Z" fill="#dc2626"/>
+                  <!-- Medali Emas -->
+                  <circle cx="68" cy="80" r="5" fill="#facc15" stroke="#ffffff" stroke-width="1"/>
+                  <circle cx="112" cy="80" r="5" fill="#facc15" stroke="#ffffff" stroke-width="1"/>
+                  <!-- Bendera Merah Putih -->
+                  <rect x="75" y="14" width="30" height="9" fill="#dc2626"/>
+                  <rect x="75" y="23" width="30" height="9" fill="#ffffff"/>
+                  <text x="90" y="136" font-size="6.5" font-weight="bold" fill="#1e3a8a" text-anchor="middle">17 AGUSTUS 2016 - RIO</text>
+                </svg>
+                <span class="block text-[10px] text-slate-500 mt-1">Ilustrasi Tontowi &amp; Liliyana (Liputan6.com, 2016)</span>
+              </div>
+              <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                Pasangan ganda campuran bulutangkis Indonesia, Tontowi Ahmad (bersuku Jawa dan beragama Islam) serta Liliyana Natsir (bersuku Manado dan beragama Katolik), memiliki latar belakang budaya dan agama yang berbeda. Meski grafik permainan mereka sempat naik turun menjelang Olimpiade Rio 2016, keduanya saling membangun <em>chemistry</em> dan kepercayaan hingga sukses meraih medali emas tepat pada HUT ke-71 RI, 17 Agustus 2016.
+              </p>
+            </div>
+          </div>
+        `,
+        question: "Pelajaran utama yang dapat kamu petik dari kisah kolaborasi Tontowi Ahmad dan Liliyana Natsir terkait Pancasila sebagai pandangan hidup bangsa adalah ....",
+        options: [
+          "perbedaan suku dan agama menjadi kekuatan pemersatu apabila diiringi rasa saling percaya dan kerja sama",
+          "keberhasilan meraih prestasi dunia hanya dapat dicapai apabila anggota tim memiliki latar belakang seragam",
+          "semangat persatuan nasional cukup diwujudkan melalui dukungan penonton saat pertandingan olahraga berlangsung",
+          "perbedaan karakter antarindividu harus dihilangkan sepenuhnya sebelum membangun kerja sama dalam satu tim"
+        ],
+        answer: [0],
+        explanation: "Kisah Tontowi dan Liliyana membuktikan nilai persatuan dalam Pancasila sebagai pandangan hidup bangsa: perbedaan suku, bahasa, dan agama bukan penghalang, melainkan kekuatan saat disatukan oleh saling percaya demi kejayaan bangsa."
+      },
+
+      // SOAL 10 (C4 - Sulit - PG)
+      {
+        id: 10,
+        subbab: "B. Pancasila sebagai Pandangan Hidup Bangsa dalam Kehidupanku",
+        type: "pg",
+        cognitive: "C4 (Analisis)",
+        difficulty: "Sulit",
+        stimulus: `
+          <div class="bg-blue-50/70 border border-blue-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-blue-950 mb-2">Cermati uraian mengenai asal-usul nilai Pancasila dalam sejarah bangsa Indonesia berikut!</p>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+              Pancasila merupakan kristalisasi dari pengalaman hidup dalam sejarah panjang bangsa Indonesia yang telah membentuk karakter, etika, tata nilai, dan norma. Pada 1 Juni 1945, Sukarno menyebut Pancasila sebagai <em>Weltanschauung</em> (dari bahasa Jerman: <em>welt</em> berarti dunia dan <em>anschauung</em> berarti pandangan/persepsi) yang digunakan bangsa Indonesia untuk memaknai kehidupan sehari-hari.
+            </p>
+          </div>
+        `,
+        question: "Pernyataan yang paling tepat menjelaskan mengapa Pancasila disebut sebagai 'kristalisasi pengalaman hidup bangsa' adalah ....",
+        options: [
+          "nilai luhur Pancasila digali dari budaya dan tradisi bangsa Indonesia sendiri yang telah hidup berabad-abad",
+          "rumusan sila Pancasila diadopsi secara langsung dari konstitusi negara-negara maju di kawasan Eropa",
+          "seluruh nilai Pancasila baru mulai dikenal oleh masyarakat Indonesia setelah disahkan pada 18 Agustus 1945",
+          "pandangan hidup bangsa disusun secara mendadak oleh para pemimpin negara menjelang proklamasi kemerdekaan"
+        ],
+        answer: [0],
+        explanation: "Disebut 'kristalisasi pengalaman hidup' karena nilai-nilai ketuhanan, kemanusiaan, persatuan, musyawarah, dan keadilan sosial bukan berasal dari luar, melainkan digali dari adat, tradisi, dan kearifan bangsa Indonesia sendiri sejak dahulu."
+      },
+
+      // SOAL 11 (C5 - Sangat Sulit - PG)
+      {
+        id: 11,
+        subbab: "B. Pancasila sebagai Pandangan Hidup Bangsa dalam Kehidupanku",
+        type: "pg",
+        cognitive: "C5 (Evaluasi)",
+        difficulty: "Sangat Sulit",
+        stimulus: `
+          <div class="bg-indigo-50/70 border border-indigo-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-indigo-950 mb-2">Cermati peristiwa bersejarah menjelang pengesahan Pembukaan UUD NRI Tahun 1945 berikut!</p>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+              Pada detik-detik menjelang pengesahan konstitusi tanggal 18 Agustus 1945, muncul aspirasi keberatan dari wakil masyarakat Indonesia Timur terhadap tujuh kata pada sila pertama Piagam Jakarta yang berpotensi memecah keutuhan bangsa. Para pemimpin bangsa dari kalangan Islam saat itu dengan jiwa besar dan lapang dada sepakat mengubah rumusan tersebut menjadi <em>"Ketuhanan Yang Maha Esa"</em>.
+            </p>
+          </div>
+        `,
+        question: "Evaluasi yang paling tepat mengenai sikap para tokoh perumus dasar negara dalam peristiwa tersebut adalah ....",
+        options: [
+          "membuktikan bahwa nilai persatuan telah menjadi pandangan hidup yang mengalahkan egoisme golongan",
+          "menunjukkan bahwa keputusan sidang kenegaraan dapat diubah secara sepihak tanpa melalui musyawarah",
+          "menggambarkan melemahnya komitmen religius para pendiri bangsa demi kepentingan politik sementara",
+          "menandakan bahwa aspirasi masyarakat dari wilayah kepulauan bagian timur kurang diperhatikan pemerintah"
+        ],
+        answer: [0],
+        explanation: "Kesediaan tokoh-tokoh Islam mengubah tujuh kata Piagam Jakarta menjadi 'Ketuhanan Yang Maha Esa' menunjukkan bahwa nilai persatuan Indonesia (Sila ke-3) dan musyawarah telah hidup sebagai pandangan hidup yang mengutamakan keutuhan bangsa di atas kepentingan golongan."
+      },
+
+      // SOAL 12 (C3 - Sedang - PG)
+      {
+        id: 12,
+        subbab: "B. Pancasila sebagai Pandangan Hidup Bangsa dalam Kehidupanku",
+        type: "pg",
+        cognitive: "C3 (Aplikasi)",
+        difficulty: "Sedang",
+        stimulus: `
+          <div class="bg-white border border-blue-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-blue-950 mb-2">Perhatikan ilustrasi kehidupan sederhana dalam keluarga berikut!</p>
+            <div class="flex flex-col sm:flex-row items-center gap-4">
+              <div class="shrink-0 text-center">
+                <svg class="w-36 h-28 rounded-xl border border-blue-200 shadow-xs" viewBox="0 0 180 140" fill="none">
+                  <rect width="180" height="140" fill="#eff6ff"/>
+                  <!-- Rumah Hangat -->
+                  <polygon points="40,56 90,22 140,56" fill="#1d4ed8"/>
+                  <rect x="50" y="56" width="80" height="62" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5"/>
+                  <!-- Anggota Keluarga Tersenyum -->
+                  <circle cx="72" cy="82" r="8" fill="#2563eb"/>
+                  <path d="M60 112 C60 95 84 95 84 112 Z" fill="#60a5fa"/>
+                  <circle cx="108" cy="82" r="8" fill="#0284c7"/>
+                  <path d="M96 112 C96 95 120 95 120 112 Z" fill="#38bdf8"/>
+                  <circle cx="90" cy="92" r="6" fill="#f59e0b"/>
+                  <path d="M81 114 C81 101 99 101 99 114 Z" fill="#fbbf24"/>
+                  <text x="90" y="132" font-size="7" font-weight="bold" fill="#1e3a8a" text-anchor="middle">HIDUP SEDERHANA &amp; BERBAGI</text>
+                </svg>
+                <span class="block text-[10px] text-slate-500 mt-1">Ilustrasi Kesederhanaan Keluarga (Kompas.com, 2020)</span>
+              </div>
+              <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                Keluarga Pak Arya tergolong mampu secara ekonomi di lingkungannya. Meskipun sanggup membeli barang-barang mewah, Pak Arya membiasakan anak-anaknya bergaya hidup sederhana, menggunakan perlengkapan sekolah secukupnya, dan menyisihkan uang saku untuk membantu warga sekitar yang membutuhkan.
+              </p>
+            </div>
+          </div>
+        `,
+        question: "Dampak sosial paling positif dari pembiasaan hidup sederhana yang diterapkan keluarga Pak Arya di tengah masyarakat adalah ....",
+        options: [
+          "mencegah timbulnya kecemburuan sosial sekaligus menumbuhkan keharmonisan antarwarga sekitar",
+          "meningkatkan gengsi keluarga di mata tetangga karena dianggap hemat dalam pengeluaran rumah tangga",
+          "mengurangi perputaran kegiatan ekonomi masyarakat karena warga enggan membeli barang kebutuhan",
+          "membatasi pergaulan anak-anak di sekolah agar tidak terpengaruh oleh gaya hidup teman sebayanya"
+        ],
+        answer: [0],
+        explanation: "Memilih hidup sederhana meski mampu secara materi merupakan wujud Pancasila sebagai pandangan hidup bangsa di keluarga. Sikap ini mencegah kecemburuan sosial dan melahirkan keharmonisan dalam masyarakat."
+      },
+
+      // SOAL 13 (C4 - Sulit - PGK)
+      {
+        id: 13,
+        subbab: "B. Pancasila sebagai Pandangan Hidup Bangsa dalam Kehidupanku",
+        type: "pgk",
+        cognitive: "C4 (Analisis)",
+        difficulty: "Sulit",
+        instructionText: "PILIHAN GANDA KOMPLEKS — Pilihlah dua pernyataan yang paling tepat!",
+        stimulus: `
+          <div class="bg-sky-50/70 border border-sky-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-sky-950 mb-2">Cermati gambaran kolaborasi belajar antarteman di sekolah berikut!</p>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+              Setiap peserta didik memiliki keunggulan dan kekurangan yang berbeda. Dafa sangat mahir pada pelajaran Matematika tetapi kesulitan menyusun karangan Bahasa Indonesia, sedangkan Nisa sangat terampil menulis karya sastra namun perlu bimbingan pada materi hitungan aljabar. Keduanya sepakat membentuk kelompok belajar bersama sepulang sekolah.
+            </p>
+          </div>
+        `,
+        question: "Manakah dua pernyataan yang tepat dalam menganalisis sikap Dafa dan Nisa sesuai Pancasila sebagai pandangan hidup bangsa di sekolah?",
+        options: [
+          "Keduanya memosisikan teman secara setara sesuai harkat dan martabat manusia tanpa sikap merendahkan",
+          "Kolaborasi saling melengkapi kelebihan masing-masing memperkuat semangat kebersamaan dan kemanusiaan",
+          "Siswa yang unggul di bidang eksakta memiliki kedudukan intelektual lebih tinggi dibanding bidang bahasa",
+          "Kerja sama belajar hanya efektif dilakukan apabila seluruh anggota kelompok memiliki nilai rapor yang sama"
+        ],
+        answer: [0, 1],
+        explanation: "Pernyataan 1 dan 2 benar: menyadari setiap orang punya kelebihan dan kekurangan lalu saling membantu tanpa merasa lebih pintar adalah perwujudan Pancasila sebagai pandangan hidup bangsa di sekolah."
+      },
+
+      // SOAL 14 (C3 - Sedang - PG)
+      {
+        id: 14,
+        subbab: "B. Pancasila sebagai Pandangan Hidup Bangsa dalam Kehidupanku",
+        type: "pg",
+        cognitive: "C3 (Aplikasi)",
+        difficulty: "Sedang",
+        stimulus: `
+          <div class="bg-blue-50/70 border border-blue-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-blue-950 mb-2">Perhatikan potret tradisi kebersamaan di lingkungan masyarakat berikut!</p>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+              Ketika salah seorang warga di Kampung Sukamaju meninggal dunia, para tetangga secara spontan berdatangan ke rumah duka untuk bertakziah, membantu menyiapkan perlengkapan pemakaman, serta menghibur keluarga yang ditinggalkan tanpa menunggu perintah tertulis dari pengurus desa.
+            </p>
+          </div>
+        `,
+        question: "Perilaku spontan masyarakat Kampung Sukamaju tersebut membuktikan bahwa nilai-nilai Pancasila ....",
+        options: [
+          "telah menyatu dalam karakter dan solidaritas sosial masyarakat sebagai pedoman bertindak sehari-hari",
+          "hanya dijalankan oleh warga pedesaan yang belum mengenal gaya hidup modern dan teknologi digital",
+          "berfungsi sebagai aturan hukum pidana yang memberikan sanksi denda bagi warga yang tidak hadir",
+          "diterapkan semata-mata agar keluarga yang berduka membalas kebaikan serupa di kemudian hari"
+        ],
+        answer: [0],
+        explanation: "Kehidupan individualistis bukanlah cerminan bangsa Indonesia. Tradisi takziah dan gotong royong secara alami menunjukkan Pancasila telah melekat sebagai pandangan hidup bangsa yang membentuk solidaritas sosial."
+      },
+
+      // SOAL 15 (C4 - Sulit - PGK)
+      {
+        id: 15,
+        subbab: "B. Pancasila sebagai Pandangan Hidup Bangsa dalam Kehidupanku",
+        type: "pgk",
+        cognitive: "C4 (Analisis)",
+        difficulty: "Sulit",
+        instructionText: "PILIHAN GANDA KOMPLEKS — Pilihlah tiga pernyataan yang paling tepat!",
+        stimulus: `
+          <div class="bg-white border border-blue-200 rounded-xl p-4 overflow-x-auto">
+            <p class="text-xs sm:text-sm font-bold text-blue-950 mb-2">Perhatikan tabel perbandingan sikap hidup masyarakat berikut ini!</p>
+            <table class="w-full text-xs sm:text-sm text-left border-collapse">
+              <thead>
+                <tr class="bg-blue-100 text-blue-950">
+                  <th class="p-2 border border-blue-200">No</th>
+                  <th class="p-2 border border-blue-200">Perilaku dalam Kehidupan Sehari-hari</th>
+                  <th class="p-2 border border-blue-200">Lingkungan</th>
+                </tr>
+              </thead>
+              <tbody class="text-slate-700">
+                <tr>
+                  <td class="p-2 border border-blue-200 font-semibold">1</td>
+                  <td class="p-2 border border-blue-200">Mengirimkan bantuan kemanusiaan bagi negara sahabat yang dilanda gempa</td>
+                  <td class="p-2 border border-blue-200">Internasional</td>
+                </tr>
+                <tr class="bg-blue-50/40">
+                  <td class="p-2 border border-blue-200 font-semibold">2</td>
+                  <td class="p-2 border border-blue-200">Menyampaikan kritik terhadap kebijakan publik secara santun tanpa merusak fasilitas</td>
+                  <td class="p-2 border border-blue-200">Masyarakat</td>
+                </tr>
+                <tr>
+                  <td class="p-2 border border-blue-200 font-semibold">3</td>
+                  <td class="p-2 border border-blue-200">Mengutamakan kepentingan pribadi di atas kesepakatan musyawarah warga</td>
+                  <td class="p-2 border border-blue-200">Masyarakat</td>
+                </tr>
+                <tr class="bg-blue-50/40">
+                  <td class="p-2 border border-blue-200 font-semibold">4</td>
+                  <td class="p-2 border border-blue-200">Sukarela membantu tetangga mempersiapkan acara pernikahan secara gotong royong</td>
+                  <td class="p-2 border border-blue-200">Masyarakat</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        `,
+        question: "Dari tabel di atas, pilihlah tiga perilaku yang mencerminkan Pancasila sebagai pandangan hidup bangsa Indonesia!",
+        options: [
+          "Perilaku nomor 1 sebagai wujud nilai kemanusiaan yang menghargai martabat sesama umat manusia",
+          "Perilaku nomor 2 sebagai wujud nilai permusyawaratan dan kebebasan berpendapat yang bertanggung jawab",
+          "Perilaku nomor 3 sebagai wujud kebebasan individu dalam menentukan pilihan hidup secara mandiri",
+          "Perilaku nomor 4 sebagai wujud nilai keadilan sosial dan tradisi kebersamaan dalam bermasyarakat"
+        ],
+        answer: [0, 1, 3],
+        explanation: "Perilaku nomor 1 (bantuan kemanusiaan), nomor 2 (berpendapat santun sesuai Pasal 28 UUD 1945), dan nomor 4 (gotong royong) adalah cerminan nyata Pancasila sebagai pandangan hidup bangsa, sedangkan nomor 3 bertentangan dengan semangat kebersamaan."
+      },
+
+      // SOAL 16 (C5 - Sangat Sulit - PG)
+      {
+        id: 16,
+        subbab: "B. Pancasila sebagai Pandangan Hidup Bangsa dalam Kehidupanku",
+        type: "pg",
+        cognitive: "C5 (Evaluasi)",
+        difficulty: "Sangat Sulit",
+        stimulus: `
+          <div class="bg-sky-50/70 border border-sky-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-sky-950 mb-2">Cermati kisah kasus perselisihan antarsiswa berikut ini!</p>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+              Saat kegiatan kerja bakti kelas, Gilang yang sedang berlari terburu-buru tidak sengaja menabrak Fajar yang membawa pengki berisi sampah hingga berserakan di lantai. Gilang langsung meminta maaf dengan tulus, tetapi Fajar tetap marah dan melontarkan kata-kata kasar karena merasa Gilang bertindak ceroboh.
+            </p>
+          </div>
+        `,
+        question: "Jika kamu berperan sebagai ketua kelas yang ingin mendamaikan keduanya berlandaskan Pancasila sebagai pandangan hidup bangsa, pendekatan terbaik yang harus kamu ambil adalah ....",
+        options: [
+          "mengajak keduanya berdialog tenang agar Gilang lebih berhati-hati dan Fajar mau memaafkan dengan lapang dada",
+          "melaporkan langsung kedua siswa tersebut kepada guru piket agar keduanya mendapat sanksi poin pelanggaran",
+          "membela kemarahan Fajar di depan teman sekelas supaya Gilang merasa jera dan tidak mengulangi perbuatannya",
+          "meminta teman-teman lain segera membersihkan sampah yang berserakan tanpa perlu membahas kesalahpahaman mereka"
+        ],
+        answer: [0],
+        explanation: "Pendekatan mediasi secara kekeluargaan (Sila ke-4) dan menumbuhkan sikap saling memaafkan serta menghargai martabat sesama (Sila ke-2) menyelesaikan akar konflik secara bermartabat."
+      },
+
+      // ==================== SUBBAB C: PANCASILA SEBAGAI IDEOLOGI NEGARA (9 SOAL: 6 PG + 3 PGK) ====================
+
+      // SOAL 17 (C4 - Sedang - PG)
+      {
+        id: 17,
+        subbab: "C. Pancasila sebagai Ideologi Negara dalam Kehidupanku",
+        type: "pg",
+        cognitive: "C4 (Analisis)",
+        difficulty: "Sedang",
+        stimulus: `
+          <div class="bg-blue-50/70 border border-blue-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-blue-950 mb-2">Perhatikan ilustrasi peta penunjuk arah dan konsep ideologi negara berikut!</p>
+            <div class="flex flex-col sm:flex-row items-center gap-4">
+              <div class="shrink-0 text-center">
+                <svg class="w-36 h-28 rounded-xl border border-blue-300 shadow-xs" viewBox="0 0 180 140" fill="none">
+                  <rect width="180" height="140" fill="#dbeafe"/>
+                  <!-- Peta / Layar Navigasi -->
+                  <rect x="24" y="16" width="132" height="92" rx="10" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+                  <!-- Rute Perjalanan -->
+                  <path d="M44 90 Q75 78 90 60 T136 34" stroke="#3b82f6" stroke-width="4" stroke-linecap="round" stroke-dasharray="5 3"/>
+                  <!-- Titik Awal -->
+                  <circle cx="44" cy="90" r="6" fill="#0284c7"/>
+                  <!-- Pin Tujuan Akhir -->
+                  <path d="M136 20 C130 20 126 24 126 30 C126 37 136 46 136 46 C136 46 146 37 146 30 C146 24 142 20 136 20 Z" fill="#dc2626"/>
+                  <circle cx="136" cy="29" r="3.5" fill="#ffffff"/>
+                  <text x="90" y="101" font-size="7" font-weight="bold" fill="#1e40af" text-anchor="middle">ARAH: ADIL &amp; MAKMUR</text>
+                  <text x="90" y="128" font-size="7.5" font-weight="bold" fill="#1e3a8a" text-anchor="middle">PANCASILA SEBAGAI KOMPAS</text>
+                </svg>
+                <span class="block text-[10px] text-slate-500 mt-1">Ilustrasi Peta Navigasi (Adaptasi Liputan6.com, 2019)</span>
+              </div>
+              <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                Secara bahasa, ideologi berasal dari kata <em>idea</em> (gagasan, konsep, cita-cita) dan <em>logos</em> (ilmu). Layaknya peta digital atau <em>Google Maps</em> yang memandu pelancong agar tidak tersesat menuju tujuan, Pancasila sebagai ideologi negara menunjukkan arah dan orientasi dalam kehidupan berbangsa menuju Indonesia yang merdeka, bersatu, berdaulat, adil, dan makmur.
+              </p>
+            </div>
+          </div>
+        `,
+        question: "Berdasarkan analogi peta perjalanan tersebut, akibat yang akan dialami suatu negara apabila penyelenggaraannya menyimpang dari ideologi Pancasila adalah ....",
+        options: [
+          "arah pembangunan nasional menjadi kehilangan orientasi sehingga cita-cita keadilan sosial sulit tercapai",
+          "negara dapat lebih cepat mencapai kemakmuran karena bebas meniru sistem pemerintahan negara lain",
+          "wilayah perbatasan negara otomatis meluas tanpa memerlukan kerja sama diplomatik antarbangsa",
+          "masyarakat tidak lagi membutuhkan peraturan perundang-undangan dalam mengatur ketertiban umum"
+        ],
+        answer: [0],
+        explanation: "Layaknya perjalanan tanpa peta yang membuat tersesat, penyelenggaraan negara tanpa berpedoman pada ideologi Pancasila akan kehilangan arah dan orientasi untuk mewujudkan negara yang merdeka, bersatu, berdaulat, adil, dan makmur."
+      },
+
+      // SOAL 18 (C4 - Sulit - PG)
+      {
+        id: 18,
+        subbab: "C. Pancasila sebagai Ideologi Negara dalam Kehidupanku",
+        type: "pg",
+        cognitive: "C4 (Analisis)",
+        difficulty: "Sulit",
+        stimulus: `
+          <div class="bg-indigo-50/70 border border-indigo-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-indigo-950 mb-2">Cermati arahan sila kelima Pancasila dalam penyelenggaraan kehidupan ekonomi negara berikut!</p>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+              Sila Keadilan Sosial bagi Seluruh Rakyat Indonesia memberikan arah agar negara memastikan distribusi kesejahteraan secara adil melalui berbagai kebijakan publik. Tidak boleh terjadi pemusatan kekayaan hanya pada segelintir individu atau golongan yang dapat memicu kecemburuan sosial serta merusak persatuan bangsa.
+            </p>
+          </div>
+        `,
+        question: "Kebijakan ekonomi pemerintah berikut yang paling sesuai dengan arahan sila kelima Pancasila sebagai ideologi negara adalah ....",
+        options: [
+          "memberikan bantuan permodalan serta pelatihan bagi pelaku usaha mikro kecil di seluruh pelosok daerah",
+          "memusatkan pembangunan kawasan industri modern hanya di kota-kota besar yang berpenduduk padat",
+          "menghapus seluruh program subsidi kebutuhan pokok agar harga barang ditentukan oleh pemilik modal besar",
+          "memberikan hak penguasaan penuh sumber daya alam daerah kepada satu perusahaan swasta berskala besar"
+        ],
+        answer: [0],
+        explanation: "Pemberdayaan UMKM di seluruh pelosok daerah mendistribusikan kesejahteraan secara adil dan mencegah pemusatan kekayaan pada segelintir golongan, selaras dengan arahan Sila Kelima sebagai ideologi negara."
+      },
+
+      // SOAL 19 (C4 - Sulit - PGK)
+      {
+        id: 19,
+        subbab: "C. Pancasila sebagai Ideologi Negara dalam Kehidupanku",
+        type: "pgk",
+        cognitive: "C4 (Analisis)",
+        difficulty: "Sulit",
+        instructionText: "PILIHAN GANDA KOMPLEKS — Pilihlah dua pernyataan yang paling tepat!",
+        stimulus: `
+          <div class="bg-sky-50/70 border border-sky-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-sky-950 mb-2">Cermati kutipan wacana fenomena gaya hidup remaja di era media sosial berikut!</p>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+              Belakangan ini marak fenomena konsumerisme, hedonisme, dan kebiasaan memamerkan barang mewah (<em>flexing</em>) di media sosial. Perilaku tersebut berakar dari paham individualisme yang membuat seseorang ingin menunjukkan keunggulan materi di hadapan publik tanpa memedulikan kondisi sosial masyarakat di sekitarnya.
+            </p>
+          </div>
+        `,
+        question: "Mengapa gaya hidup konsumerisme, hedonisme, dan pamer kekayaan bertentangan dengan nilai Pancasila sebagai ideologi negara? Pilihlah dua analisis yang tepat!",
+        options: [
+          "Mendorong sikap individualistis yang mengikis solidaritas dan kepedulian sosial terhadap sesama warga",
+          "Memicu kesenjangan dan kecemburuan sosial yang bertentangan dengan cita-cita keadilan sosial",
+          "Meningkatkan daya beli masyarakat sehingga perekonomian nasional tumbuh semakin pesat dan merata",
+          "Menjadi sarana motivasi bagi pelajar agar berlomba-lomba mengumpulkan harta benda sejak usia remaja"
+        ],
+        answer: [0, 1],
+        explanation: "Pernyataan 1 dan 2 tepat. Konsumerisme dan hedonisme berakar dari individualisme yang merusak solidaritas sosial serta memicu kecemburuan sosial yang bertentangan dengan Sila Kelima."
+      },
+
+      // SOAL 20 (C4 - Sangat Sulit - PG - Numerasi Grafik Pengeluaran Remaja)
+      {
+        id: 20,
+        subbab: "C. Pancasila sebagai Ideologi Negara dalam Kehidupanku",
+        type: "pg",
+        cognitive: "C4 (Analisis)",
+        difficulty: "Sangat Sulit",
+        stimulus: `
+          <div class="bg-white border border-blue-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-blue-950 mb-2">Perhatikan grafik batang hasil survei alokasi penggunaan uang saku bulanan 200 pelajar SMP di Kota Mandiri berikut!</p>
+            <svg class="w-full max-w-lg h-48 mx-auto" viewBox="0 0 420 190" fill="none">
+              <rect width="420" height="190" rx="10" fill="#eff6ff"/>
+              <!-- Garis sumbu -->
+              <line x1="55" y1="25" x2="55" y2="145" stroke="#1e3a8a" stroke-width="1.5"/>
+              <line x1="55" y1="145" x2="395" y2="145" stroke="#1e3a8a" stroke-width="1.5"/>
+              <!-- Grid horizontal -->
+              <line x1="55" y1="45" x2="395" y2="45" stroke="#bfdbfe" stroke-dasharray="3 3"/>
+              <line x1="55" y1="80" x2="395" y2="80" stroke="#bfdbfe" stroke-dasharray="3 3"/>
+              <line x1="55" y1="115" x2="395" y2="115" stroke="#bfdbfe" stroke-dasharray="3 3"/>
+              <!-- Y Labels -->
+              <text x="48" y="49" font-size="8.5" fill="#1e3a8a" text-anchor="end">40%</text>
+              <text x="48" y="84" font-size="8.5" fill="#1e3a8a" text-anchor="end">25%</text>
+              <text x="48" y="119" font-size="8.5" fill="#1e3a8a" text-anchor="end">10%</text>
+              <!-- Bar 1: Tren & Gim Daring (42%) -->
+              <rect x="78" y="40" width="48" height="105" rx="4" fill="#dc2626"/>
+              <text x="102" y="34" font-size="9" font-weight="bold" fill="#b91c1c" text-anchor="middle">42%</text>
+              <text x="102" y="158" font-size="8" font-weight="bold" fill="#334155" text-anchor="middle">Gaya Hidup</text>
+              <text x="102" y="168" font-size="7.5" fill="#475569" text-anchor="middle">&amp; Gim Daring</text>
+              <!-- Bar 2: Kebutuhan Belajar (28%) -->
+              <rect x="160" y="75" width="48" height="70" rx="4" fill="#2563eb"/>
+              <text x="184" y="69" font-size="9" font-weight="bold" fill="#1d4ed8" text-anchor="middle">28%</text>
+              <text x="184" y="158" font-size="8" font-weight="bold" fill="#334155" text-anchor="middle">Buku &amp; Alat</text>
+              <text x="184" y="168" font-size="7.5" fill="#475569" text-anchor="middle">Belajar</text>
+              <!-- Bar 3: Tabungan (22%) -->
+              <rect x="242" y="90" width="48" height="55" rx="4" fill="#0284c7"/>
+              <text x="266" y="84" font-size="9" font-weight="bold" fill="#0369a1" text-anchor="middle">22%</text>
+              <text x="266" y="158" font-size="8" font-weight="bold" fill="#334155" text-anchor="middle">Menabung</text>
+              <text x="266" y="168" font-size="7.5" fill="#475569" text-anchor="middle">Masa Depan</text>
+              <!-- Bar 4: Donasi Sosial (8%) -->
+              <rect x="324" y="125" width="48" height="20" rx="4" fill="#16a34a"/>
+              <text x="348" y="119" font-size="9" font-weight="bold" fill="#15803d" text-anchor="middle">8%</text>
+              <text x="348" y="158" font-size="8" font-weight="bold" fill="#334155" text-anchor="middle">Donasi &amp;</text>
+              <text x="348" y="168" font-size="7.5" fill="#475569" text-anchor="middle">Berbagi</text>
+              <text x="210" y="184" font-size="7.5" fill="#1e40af" text-anchor="middle">Sumber: Survei Literasi Finansial Remaja SMP (2024)</text>
+            </svg>
+          </div>
+        `,
+        question: "Berdasarkan data numerasi pada grafik di atas (selisih pengeluaran gaya hidup/gim daring dengan gabungan tabungan dan donasi sosial mencapai 12%), kesimpulan paling tepat terkait pengamalan ideologi Pancasila adalah ....",
+        options: [
+          "kecenderungan konsumtif remaja lebih dominan daripada kebiasaan menabung dan kepedulian sosial",
+          "pelajar SMP telah mengalokasikan mayoritas uang sakunya untuk mendukung kegiatan solidaritas sosial",
+          "pengeluaran untuk kebutuhan buku pelajaran sudah melampaui belanja tren gaya hidup dan gim daring",
+          "keseimbangan antara pemenuhan kebutuhan pribadi dan kepedulian sesama sudah tercapai secara ideal"
+        ],
+        answer: [0],
+        explanation: "Pengeluaran gaya hidup & gim daring mencapai 42%, lebih tinggi dibandingkan gabungan menabung (22%) + donasi sosial (8%) = 30% (selisih 12%). Ini menunjukkan kecenderungan konsumtif remaja yang perlu diarahkan kembali ke nilai kesederhanaan dan solidaritas sosial Pancasila."
+      },
+
+      // SOAL 21 (C3 - Sedang - PG)
+      {
+        id: 21,
+        subbab: "C. Pancasila sebagai Ideologi Negara dalam Kehidupanku",
+        type: "pg",
+        cognitive: "C3 (Aplikasi)",
+        difficulty: "Sedang",
+        stimulus: `
+          <div class="bg-blue-50/70 border border-blue-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-blue-950 mb-2">Cermati peran keluarga dalam mewujudkan Pancasila sebagai ideologi negara berikut!</p>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+              Setiap keluarga merupakan aset penting bagi kemajuan bangsa dan negara. Pengamalan Pancasila sebagai ideologi negara di lingkungan keluarga dapat diwujudkan apabila setiap anggota keluarga, terutama anak-anak yang sedang menempuh pendidikan, merancang kontribusi terbaik bagi masa depan Indonesia.
+            </p>
+          </div>
+        `,
+        question: "Contoh penerapan paling nyata dari peran pelajar SMP dalam mewujudkan gagasan 'keluarga sebagai aset bangsa' tersebut adalah ....",
+        options: [
+          "menyusun jadwal belajar rutin dan mengasah bakat positif demi meraih prestasi yang membanggakan",
+          "menuntut orang tua membelikan gawai keluaran terbaru agar tidak tertinggal pergaulan media sosial",
+          "menghabiskan waktu libur akhir pekan dengan bermain gim daring tanpa membantu pekerjaan rumah",
+          "menunda rencana pengembangan keterampilan diri hingga menyelesaikan pendidikan di jenjang perguruan tinggi"
+        ],
+        answer: [0],
+        explanation: "Belajar tekun, disiplin, dan mengasah bakat positif sejak di bangku SMP adalah bentuk merancang kontribusi terbaik bagi kemajuan bangsa agar keluarga benar-benar menjadi aset negara."
+      },
+
+      // SOAL 22 (C4 - Sulit - PGK)
+      {
+        id: 22,
+        subbab: "C. Pancasila sebagai Ideologi Negara dalam Kehidupanku",
+        type: "pgk",
+        cognitive: "C4 (Analisis)",
+        difficulty: "Sulit",
+        instructionText: "PILIHAN GANDA KOMPLEKS — Pilihlah tiga pernyataan yang paling sesuai!",
+        stimulus: `
+          <div class="bg-white border border-blue-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-blue-950 mb-2">Perhatikan bagan enam dimensi Profil Pelajar Pancasila sebagai perwujudan ideologi negara di sekolah berikut!</p>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 text-center text-xs">
+              <div class="p-2.5 rounded-xl bg-blue-50 border border-blue-200 font-bold text-blue-950">1. Beriman &amp; Berakhlak Mulia</div>
+              <div class="p-2.5 rounded-xl bg-sky-50 border border-sky-200 font-bold text-sky-950">2. Berkebinekaan Global</div>
+              <div class="p-2.5 rounded-xl bg-indigo-50 border border-indigo-200 font-bold text-indigo-950">3. Bergotong Royong</div>
+              <div class="p-2.5 rounded-xl bg-blue-50 border border-blue-200 font-bold text-blue-950">4. Mandiri</div>
+              <div class="p-2.5 rounded-xl bg-sky-50 border border-sky-200 font-bold text-sky-950">5. Bernalar Kritis</div>
+              <div class="p-2.5 rounded-xl bg-indigo-50 border border-indigo-200 font-bold text-indigo-950">6. Kreatif</div>
+            </div>
+          </div>
+        `,
+        question: "Pilihlah tiga pernyataan yang tepat mengenai hubungan pembentukan Profil Pelajar Pancasila di sekolah dengan keberlangsungan ideologi negara!",
+        options: [
+          "Membentuk generasi muda unggul yang mampu menjaga kelestarian nilai Pancasila di tengah arus globalisasi",
+          "Mencegah hilangnya karakter kebangsaan akibat pengaruh pergaulan negatif dan penyalahgunaan teknologi",
+          "Menggantikan seluruh mata pelajaran ilmu pengetahuan alam dan sosial dengan kegiatan upacara rutin",
+          "Menyiapkan calon pemimpin masa depan yang berakhlak mulia, kritis, dan mampu bekerja sama lintas budaya"
+        ],
+        answer: [0, 1, 3],
+        explanation: "Pernyataan 1, 2, dan 4 tepat: Profil Pelajar Pancasila di sekolah bertujuan melahirkan generasi unggul berkarakter Pancasila yang tangguh menghadapi tantangan globalisasi dan menjaga masa depan bangsa."
+      },
+
+      // SOAL 23 (C5 - Sangat Sulit - PG)
+      {
+        id: 23,
+        subbab: "C. Pancasila sebagai Ideologi Negara dalam Kehidupanku",
+        type: "pg",
+        cognitive: "C5 (Evaluasi)",
+        difficulty: "Sangat Sulit",
+        stimulus: `
+          <div class="bg-indigo-50/70 border border-indigo-200 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-indigo-950 mb-2">Cermati arahan sila keempat Pancasila sebagai ideologi negara berikut ini!</p>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+              Sila Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan memberikan panduan agar negara menjamin kebebasan warga negara menyampaikan pendapat di muka umum, namun tetap berlandaskan nilai-nilai ketuhanan, kemanusiaan, persatuan, dan keadilan sosial.
+            </p>
+          </div>
+        `,
+        question: "Berdasarkan arahan ideologi Pancasila tersebut, penilaian yang paling tepat terhadap aksi penyampaian pendapat yang disertai ujaran kebencian dan perusakan fasilitas umum adalah ....",
+        options: [
+          "menyimpang dari ideologi Pancasila karena kebebasan berpendapat wajib menghormati hak dan ketertiban umum",
+          "dapat dibenarkan secara konstitusional selama tuntutan yang disuarakan mewakili kepentingan banyak orang",
+          "merupakan bagian dari dinamika demokrasi bebas yang tidak perlu dibatasi oleh aturan hukum maupun etika",
+          "menjadi tanggung jawab penuh aparat keamanan untuk memperbaiki setiap kerusakan fasilitas setelah aksi selesai"
+        ],
+        answer: [0],
+        explanation: "Dalam demokrasi Pancasila, kebebasan berpendapat bukan kebebasan tanpa batas, melainkan wajib dilandasi nilai ketuhanan, kemanusiaan, persatuan, dan penghormatan terhadap kepentingan umum."
+      },
+
+      // SOAL 24 (C4 - Sedang - PG)
+      {
+        id: 24,
+        subbab: "C. Pancasila sebagai Ideologi Negara dalam Kehidupanku",
+        type: "pg",
+        cognitive: "C4 (Analisis)",
+        difficulty: "Sedang",
+        stimulus: `
+          <div class="bg-white border border-blue-200 rounded-xl p-4 overflow-x-auto">
+            <p class="text-xs sm:text-sm font-bold text-blue-950 mb-2">Perhatikan tabel perbandingan tiga kedudukan utama Pancasila berikut!</p>
+            <table class="w-full text-xs sm:text-sm text-left border-collapse">
+              <thead>
+                <tr class="bg-blue-100 text-blue-950">
+                  <th class="p-2 border border-blue-200">Kedudukan Pancasila</th>
+                  <th class="p-2 border border-blue-200">Fungsi Utama</th>
+                  <th class="p-2 border border-blue-200">Contoh Implementasi Nyata</th>
+                </tr>
+              </thead>
+              <tbody class="text-slate-700">
+                <tr>
+                  <td class="p-2 border border-blue-200 font-semibold">Dasar Negara</td>
+                  <td class="p-2 border border-blue-200">Fondasi penyelenggaraan negara &amp; sumber hukum</td>
+                  <td class="p-2 border border-blue-200">Penyusunan undang-undang mengacu pada Pancasila</td>
+                </tr>
+                <tr class="bg-blue-50/40">
+                  <td class="p-2 border border-blue-200 font-semibold">Pandangan Hidup</td>
+                  <td class="p-2 border border-blue-200">Kristalisasi nilai luhur pedoman sikap sehari-hari</td>
+                  <td class="p-2 border border-blue-200">Tradisi gotong royong dan takziah warga kampung</td>
+                </tr>
+                <tr>
+                  <td class="p-2 border border-blue-200 font-semibold">Ideologi Negara</td>
+                  <td class="p-2 border border-blue-200">Peta arah &amp; cita-cita tujuan bernegara</td>
+                  <td class="p-2 border border-blue-200">Kebijakan pemerataan kesejahteraan seluruh rakyat</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        `,
+        question: "Perbedaan mendasar antara kedudukan Pancasila sebagai 'dasar negara' dan sebagai 'ideologi negara' berdasarkan tabel di atas adalah ....",
+        options: [
+          "dasar negara menjadi fondasi hukum penyelenggaraan negara, sedangkan ideologi memberi arah cita-cita bangsa",
+          "dasar negara hanya berlaku bagi warga sipil biasa, sedangkan ideologi negara hanya mengikat pejabat pemerintah",
+          "dasar negara berasal dari kesepakatan internasional, sedangkan ideologi negara bersumber dari adat daerah",
+          "dasar negara dapat berubah mengikuti perkembangan zaman, sedangkan ideologi negara bersifat kaku selamanya"
+        ],
+        answer: [0],
+        explanation: "Sesuai tabel perbandingan, Pancasila sebagai dasar negara berfungsi sebagai fondasi hukum dalam penyelenggaraan pemerintahan, sedangkan sebagai ideologi negara berfungsi sebagai kompas/peta yang mengarahkan bangsa mencapai cita-cita nasional."
+      },
+
+      // SOAL 25 (C6 - Sangat Sulit - PGK)
+      {
+        id: 25,
+        subbab: "C. Pancasila sebagai Ideologi Negara dalam Kehidupanku",
+        type: "pgk",
+        cognitive: "C6 (Kreasi)",
+        difficulty: "Sangat Sulit",
+        instructionText: "PILIHAN GANDA KOMPLEKS — Pilihlah dua gagasan solusi yang paling tepat!",
+        stimulus: `
+          <div class="bg-blue-50/80 border border-blue-300 rounded-xl p-4">
+            <p class="text-xs sm:text-sm font-bold text-blue-950 mb-2">Cermati tantangan pengaruh budaya konsumtif di kalangan pelajar SMP berikut!</p>
+            <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+              OSIS SMP Nusantara mendapati banyak siswa merasa rendah diri apabila tidak mengenakan sepatu atau tas bermerek mahal yang sedang tren di media sosial. Pengurus OSIS berencana merancang gerakan kreatif bertema <em>"Bangga Hidup Sederhana &amp; Peduli Sesama"</em> untuk menguatkan kembali nilai ideologi Pancasila di sekolah.
+            </p>
+          </div>
+        `,
+        question: "Jika kamu menjadi tim perancang gerakan OSIS tersebut, pilihlah dua ide program yang paling tepat untuk mengubah pola pikir konsumtif menjadi solidaritas sosial!",
+        options: [
+          "Mengadakan kampanye literasi digital tentang kesederhanaan serta penggalangan donasi buku untuk teman membutuhkan",
+          "Membuat aturan seragam perlengkapan sekolah standar dan bazar karya kreatif daur ulang buatan siswa sendiri",
+          "Mewajibkan setiap siswa melaporkan jumlah uang saku harian kepada pengurus OSIS untuk diawasi penggunaannya",
+          "Melarang seluruh siswa mengakses media sosial di rumah agar tidak melihat tren gaya hidup dari luar negeri"
+        ],
+        answer: [0, 1],
+        explanation: "Gagasan 1 dan 2 bersifat edukatif, kreatif, dan membangun kesadaran hidup sederhana serta solidaritas sosial (ideologi Pancasila) tanpa melakukan pelarangan atau pengawasan berlebihan terhadap privasi siswa."
+      }
+    ];
+
+    // ==================== STATE APLIKASI ====================
+    let currentMode = 'belajar'; // 'belajar' | 'latihan'
+    let currentIndex = 0;
+    let userAnswers = Array.from({ length: questionsData.length }, () => []);
+    let checkedStatus = Array(questionsData.length).fill(false);
+    let doubtStatus = Array(questionsData.length).fill(false);
+    let isReviewMode = false;
+    let timerSeconds = 60 * 60;
+    let timerInterval = null;
+    let pendingModalAction = null;
+
+    // ==================== FUNGSI NAVIGASI LAYAR ====================
+    function startQuiz(mode) {
+      currentMode = mode;
+      currentIndex = 0;
+      userAnswers = Array.from({ length: questionsData.length }, () => []);
+      checkedStatus = Array(questionsData.length).fill(false);
+      doubtStatus = Array(questionsData.length).fill(false);
+      isReviewMode = false;
+
+      document.getElementById('start-screen').classList.add('hidden');
+      document.getElementById('result-screen').classList.add('hidden');
+      document.getElementById('quiz-screen').classList.remove('hidden');
+
+      const modeBadge = document.getElementById('mode-badge');
+      const timerBox = document.getElementById('timer-box');
+      const finishBtn = document.getElementById('finish-btn');
+      const legendDoubt = document.getElementById('legend-doubt');
+      const legendEval = document.getElementById('legend-eval');
+
+      clearInterval(timerInterval);
+
+      if (mode === 'belajar') {
+        modeBadge.textContent = 'MODE BELAJAR (LANGSUNG PEMBAHASAN)';
+        modeBadge.className = 'px-3 py-1 rounded-lg text-xs font-extrabold uppercase tracking-wider bg-sky-100 text-sky-900 border border-sky-300';
+        timerBox.classList.add('hidden');
+        timerBox.classList.remove('flex');
+        finishBtn.textContent = 'Lihat Rekap Skor';
+        legendDoubt.classList.add('hidden');
+        legendEval.classList.remove('hidden');
+      } else {
+        modeBadge.textContent = 'MODE LATIHAN (SIMULASI UJIAN)';
+        modeBadge.className = 'px-3 py-1 rounded-lg text-xs font-extrabold uppercase tracking-wider bg-blue-900 text-blue-50 border border-blue-950';
+        timerSeconds = 60 * 60;
+        updateTimerDisplay();
+        timerBox.classList.remove('hidden');
+        timerBox.classList.add('flex');
+        finishBtn.textContent = 'Selesai & Kumpulkan';
+        legendDoubt.classList.remove('hidden');
+        legendEval.classList.add('hidden');
+        startTimer();
+      }
+
+      renderQuestion();
+      renderNavGrid();
+      updateProgressText();
+    }
+
+    function startTimer() {
+      clearInterval(timerInterval);
+      timerInterval = setInterval(() => {
+        timerSeconds--;
+        updateTimerDisplay();
+        if (timerSeconds <= 0) {
+          clearInterval(timerInterval);
+          submitQuiz();
+        }
+      }, 1000);
+    }
+
+    function updateTimerDisplay() {
+      const m = Math.floor(timerSeconds / 60);
+      const s = timerSeconds % 60;
+      const display = `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+      const el = document.getElementById('timer-display');
+      el.textContent = display;
+      if (timerSeconds <= 300) {
+        el.parentElement.classList.add('bg-rose-100', 'border-rose-400', 'text-rose-800');
+      } else {
+        el.parentElement.classList.remove('bg-rose-100', 'border-rose-400', 'text-rose-800');
+      }
+    }
+
+    // ==================== RENDER SOAL ====================
+    function renderQuestion() {
+      const q = questionsData[currentIndex];
+      const letters = ['A', 'B', 'C', 'D'];
+
+      // Header badges
+      document.getElementById('q-number-badge').textContent = `Soal ${currentIndex + 1} dari ${questionsData.length}`;
+      document.getElementById('q-type-badge').textContent = q.type === 'pg' ? 'Pilihan Ganda' : 'Pilihan Ganda Kompleks';
+      document.getElementById('q-cog-badge').textContent = q.cognitive;
+      document.getElementById('q-diff-badge').textContent = q.difficulty;
+
+      // Instruksi PG Kompleks
+      const pgkInst = document.getElementById('pgk-instruction');
+      const pgkInstText = document.getElementById('pgk-instruction-text');
+      if (q.type === 'pgk') {
+        pgkInst.classList.remove('hidden');
+        pgkInstText.textContent = q.instructionText || 'PILIHAN GANDA KOMPLEKS — Pilihlah lebih dari satu pernyataan yang benar!';
+      } else {
+        pgkInst.classList.add('hidden');
+      }
+
+      // Stimulus & Pertanyaan
+      document.getElementById('stimulus-container').innerHTML = q.stimulus;
+      document.getElementById('question-text').innerHTML = q.question;
+
+      // Status lock
+      const isLocked = (currentMode === 'belajar' && checkedStatus[currentIndex]) || isReviewMode;
+      const selected = userAnswers[currentIndex];
+
+      // Render Opsi
+      const optionsContainer = document.getElementById('options-container');
+      optionsContainer.innerHTML = '';
+
+      q.options.forEach((optText, idx) => {
+        const isSelected = selected.includes(idx);
+        const isCorrectOpt = q.answer.includes(idx);
+
+        let cardClass = 'option-card w-full text-left p-3.5 sm:p-4 rounded-xl border-2 flex items-start gap-3 cursor-pointer ';
+        let badgeClass = 'w-7 h-7 rounded-lg flex items-center justify-center font-extrabold text-xs shrink-0 mt-0.5 ';
+        let statusTag = '';
+
+        if (isLocked) {
+          cardClass += 'disabled-opt cursor-default ';
+          if (isCorrectOpt && isSelected) {
+            cardClass += 'bg-emerald-50 border-emerald-500 text-emerald-950';
+            badgeClass += 'bg-emerald-600 text-white';
+            statusTag = '<span class="ml-auto text-xs font-bold text-emerald-700 shrink-0">✓ Benar</span>';
+          } else if (isCorrectOpt && !isSelected) {
+            cardClass += 'bg-emerald-50/60 border-emerald-400 border-dashed text-emerald-900';
+            badgeClass += 'bg-emerald-500 text-white';
+            statusTag = '<span class="ml-auto text-xs font-bold text-emerald-700 shrink-0">Kunci Jawaban</span>';
+          } else if (!isCorrectOpt && isSelected) {
+            cardClass += 'bg-rose-50 border-rose-500 text-rose-950';
+            badgeClass += 'bg-rose-600 text-white';
+            statusTag = '<span class="ml-auto text-xs font-bold text-rose-700 shrink-0">✕ Pilihanmu</span>';
+          } else {
+            cardClass += 'bg-slate-50/70 border-slate-200 text-slate-500';
+            badgeClass += 'bg-slate-200 text-slate-600';
+          }
+        } else {
+          if (isSelected) {
+            cardClass += 'bg-blue-50 border-blue-600 text-blue-950 shadow-xs';
+            badgeClass += 'bg-blue-700 text-white';
+          } else {
+            cardClass += 'bg-white border-slate-200 hover:border-blue-400 hover:bg-blue-50/30 text-slate-800';
+            badgeClass += 'bg-blue-100 text-blue-900';
+          }
+        }
+
+        const inputIndicator = q.type === 'pg'
+          ? `<span class="${badgeClass}">${letters[idx]}</span>`
+          : `<span class="${badgeClass}">${isSelected ? '✓' : letters[idx]}</span>`;
+
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = cardClass;
+        btn.disabled = isLocked;
+        btn.onclick = () => selectOption(idx);
+        btn.innerHTML = `
+          ${inputIndicator}
+          <span class="text-xs sm:text-sm leading-relaxed font-medium">${optText}</span>
+          ${statusTag}
+        `;
+        optionsContainer.appendChild(btn);
+      });
+
+      // Tombol kontrol bawah
+      const checkBtn = document.getElementById('check-answer-btn');
+      const doubtWrap = document.getElementById('doubt-checkbox-wrap');
+      const doubtCb = document.getElementById('doubt-checkbox');
+
+      if (currentMode === 'belajar' && !isReviewMode) {
+        doubtWrap.classList.add('hidden');
+        if (!checkedStatus[currentIndex]) {
+          checkBtn.classList.remove('hidden');
+          checkBtn.disabled = selected.length === 0;
+          checkBtn.className = selected.length === 0
+            ? 'px-4 py-2.5 rounded-xl bg-slate-300 text-slate-500 font-bold text-xs sm:text-sm cursor-not-allowed'
+            : 'px-4 py-2.5 rounded-xl bg-blue-700 hover:bg-blue-800 text-white font-bold text-xs sm:text-sm shadow-sm transition cursor-pointer';
+        } else {
+          checkBtn.classList.add('hidden');
+        }
+      } else if (currentMode === 'latihan' && !isReviewMode) {
+        checkBtn.classList.add('hidden');
+        doubtWrap.classList.remove('hidden');
+        doubtCb.checked = doubtStatus[currentIndex];
+      } else {
+        checkBtn.classList.add('hidden');
+        doubtWrap.classList.add('hidden');
+      }
+
+      // Tombol Prev / Next
+      document.getElementById('prev-btn').disabled = currentIndex === 0;
+      document.getElementById('next-btn').disabled = currentIndex === questionsData.length - 1;
+
+      // Render Kotak Pembahasan
+      renderExplanationBox(isLocked);
+    }
+
+    function selectOption(optIdx) {
+      const q = questionsData[currentIndex];
+      if ((currentMode === 'belajar' && checkedStatus[currentIndex]) || isReviewMode) return;
+
+      if (q.type === 'pg') {
+        userAnswers[currentIndex] = [optIdx];
+      } else {
+        const current = [...userAnswers[currentIndex]];
+        const pos = current.indexOf(optIdx);
+        if (pos > -1) {
+          current.splice(pos, 1);
+        } else {
+          current.push(optIdx);
+        }
+        current.sort((a, b) => a - b);
+        userAnswers[currentIndex] = current;
+      }
+
+      renderQuestion();
+      renderNavGrid();
+      updateProgressText();
+    }
+
+    function checkCurrentAnswer() {
+      if (userAnswers[currentIndex].length === 0) return;
+      checkedStatus[currentIndex] = true;
+      renderQuestion();
+      renderNavGrid();
+    }
+
+    function toggleDoubt() {
+      doubtStatus[currentIndex] = document.getElementById('doubt-checkbox').checked;
+      renderNavGrid();
+    }
+
+    function isAnswerCorrect(index) {
+      const q = questionsData[index];
+      const u = userAnswers[index];
+      if (u.length !== q.answer.length) return false;
+      const sortedU = [...u].sort((a, b) => a - b);
+      const sortedA = [...q.answer].sort((a, b) => a - b);
+      return sortedU.every((val, i) => val === sortedA[i]);
+    }
+
+    function renderExplanationBox(show) {
+      const box = document.getElementById('explanation-box');
+      if (!show) {
+        box.classList.add('hidden');
+        return;
+      }
+
+      const q = questionsData[currentIndex];
+      const correct = isAnswerCorrect(currentIndex);
+      const letters = ['A', 'B', 'C', 'D'];
+      const keyLabels = q.answer.map(i => letters[i]).join(', ');
+      const userLabels = userAnswers[currentIndex].length > 0
+        ? userAnswers[currentIndex].map(i => letters[i]).join(', ')
+        : 'Tidak dijawab';
+
+      box.classList.remove('hidden');
+      if (correct) {
+        box.className = 'mt-5 rounded-2xl p-4 sm:p-5 border-2 bg-emerald-50/80 border-emerald-400 text-emerald-950';
+        document.getElementById('exp-status-icon').textContent = '🎉';
+        document.getElementById('exp-status-title').textContent = 'Jawabanmu BENAR!';
+        document.getElementById('exp-key-text').className = 'text-xs sm:text-sm font-bold text-emerald-800 mb-2';
+      } else {
+        box.className = 'mt-5 rounded-2xl p-4 sm:p-5 border-2 bg-rose-50/80 border-rose-400 text-rose-950';
+        document.getElementById('exp-status-icon').textContent = '💡';
+        document.getElementById('exp-status-title').textContent = 'Jawabanmu KURANG TEPAT';
+        document.getElementById('exp-key-text').className = 'text-xs sm:text-sm font-bold text-rose-800 mb-2';
+      }
+
+      document.getElementById('exp-key-text').textContent = `Kunci Jawaban: ${keyLabels} | Jawabanmu: ${userLabels}`;
+      document.getElementById('exp-detail-text').innerHTML = `<strong>Pembahasan:</strong> ${q.explanation}`;
+    }
+
+    // ==================== NAVIGASI NOMOR ====================
+    function renderNavGrid() {
+      const grid = document.getElementById('nav-grid');
+      grid.innerHTML = '';
+
+      questionsData.forEach((q, idx) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.textContent = idx + 1;
+        btn.onclick = () => {
+          currentIndex = idx;
+          renderQuestion();
+          renderNavGrid();
+        };
+
+        const isCurrent = idx === currentIndex;
+        const isAnswered = userAnswers[idx].length > 0;
+        const isEvaluated = (currentMode === 'belajar' && checkedStatus[idx]) || isReviewMode;
+
+        let cls = 'h-9 rounded-xl font-bold text-xs transition flex items-center justify-center cursor-pointer ';
+
+        if (isCurrent) {
+          cls += 'ring-2 ring-offset-1 ring-blue-700 ';
+        }
+
+        if (isEvaluated) {
+          if (isAnswerCorrect(idx)) {
+            cls += 'bg-emerald-500 text-white';
+          } else {
+            cls += 'bg-rose-500 text-white';
+          }
+        } else if (currentMode === 'latihan' && doubtStatus[idx]) {
+          cls += 'bg-amber-300 border border-amber-600 text-amber-950';
+        } else if (isAnswered) {
+          cls += 'bg-blue-100 border border-blue-400 text-blue-950';
+        } else if (isCurrent) {
+          cls += 'bg-blue-700 text-white';
+        } else {
+          cls += 'bg-slate-100 border border-slate-300 text-slate-700 hover:bg-blue-50';
+        }
+
+        btn.className = cls;
+        grid.appendChild(btn);
+      });
+    }
+
+    function updateProgressText() {
+      const answeredCount = userAnswers.filter(a => a.length > 0).length;
+      document.getElementById('progress-text').textContent = `Terjawab: ${answeredCount} / ${questionsData.length}`;
+    }
+
+    function prevQuestion() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        renderQuestion();
+        renderNavGrid();
+      }
+    }
+
+    function nextQuestion() {
+      if (currentIndex < questionsData.length - 1) {
+        currentIndex++;
+        renderQuestion();
+        renderNavGrid();
+      }
+    }
+
+    // ==================== MODAL & PENYELESAIAN ====================
+    function openSwitchModal() {
+      document.getElementById('modal-title').textContent = 'Ganti Mode atau Reset Kuis?';
+      document.getElementById('modal-message').textContent = 'Progres jawaban saat ini akan diatur ulang dan kamu akan kembali ke halaman pemilihan mode. Lanjutkan?';
+      pendingModalAction = () => {
+        clearInterval(timerInterval);
+        resetToHome();
+      };
+      document.getElementById('custom-modal').classList.remove('hidden');
+    }
+
+    function openFinishModal() {
+      const unanswered = userAnswers.filter(a => a.length === 0).length;
+      document.getElementById('modal-title').textContent = 'Selesaikan & Lihat Hasil?';
+      document.getElementById('modal-message').textContent = unanswered > 0
+        ? `Masih terdapat ${unanswered} soal yang belum kamu jawab. Apakah kamu yakin ingin menyelesaikan sesi sekarang?`
+        : 'Semua soal telah kamu jawab. Klik "Ya, Lanjutkan" untuk melihat skor akhir dan analisis pembahasan.';
+      pendingModalAction = () => {
+        submitQuiz();
+      };
+      document.getElementById('custom-modal').classList.remove('hidden');
+    }
+
+    function closeModal() {
+      document.getElementById('custom-modal').classList.add('hidden');
+      pendingModalAction = null;
+    }
+
+    document.getElementById('modal-confirm-btn').onclick = function () {
+      if (pendingModalAction) {
+        const fn = pendingModalAction;
+        closeModal();
+        fn();
+      }
+    };
+
+    function submitQuiz() {
+      clearInterval(timerInterval);
+      isReviewMode = true;
+
+      let totalCorrect = 0;
+      let pgCorrect = 0;
+      let pgkCorrect = 0;
+
+      const subbabStats = {};
+
+      questionsData.forEach((q, idx) => {
+        if (!subbabStats[q.subbab]) {
+          subbabStats[q.subbab] = { total: 0, correct: 0 };
+        }
+        subbabStats[q.subbab].total++;
+
+        if (isAnswerCorrect(idx)) {
+          totalCorrect++;
+          subbabStats[q.subbab].correct++;
+          if (q.type === 'pg') pgCorrect++;
+          else pgkCorrect++;
+        }
+      });
+
+      const score = Math.round((totalCorrect / questionsData.length) * 100);
+      let predicate = 'Perlu Bimbingan';
+      if (score >= 90) predicate = 'Sangat Baik (Mahir)';
+      else if (score >= 75) predicate = 'Baik (Cakap)';
+      else if (score >= 60) predicate = 'Cukup (Layak)';
+
+      document.getElementById('final-score').textContent = score;
+      document.getElementById('final-predicate').textContent = predicate;
+      document.getElementById('stat-correct').textContent = totalCorrect;
+      document.getElementById('stat-wrong').textContent = questionsData.length - totalCorrect;
+      document.getElementById('stat-pg').textContent = `${pgCorrect}/18`;
+      document.getElementById('stat-pgk').textContent = `${pgkCorrect}/7`;
+
+      // Render analisis per subbab
+      const topicContainer = document.getElementById('topic-analysis');
+      topicContainer.innerHTML = '';
+
+      Object.entries(subbabStats).forEach(([subbab, data]) => {
+        const pct = Math.round((data.correct / data.total) * 100);
+        const row = document.createElement('div');
+        row.innerHTML = `
+          <div class="flex justify-between font-semibold text-slate-800 mb-1">
+            <span>${subbab}</span>
+            <span>${data.correct}/${data.total} Soal (${pct}%)</span>
+          </div>
+          <div class="w-full h-2.5 bg-blue-200/70 rounded-full overflow-hidden">
+            <div class="h-full bg-blue-700 rounded-full" style="width: ${pct}%"></div>
+          </div>
+        `;
+        topicContainer.appendChild(row);
+      });
+
+      document.getElementById('quiz-screen').classList.add('hidden');
+      document.getElementById('result-screen').classList.remove('hidden');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function enterReviewMode() {
+      isReviewMode = true;
+      currentIndex = 0;
+
+      document.getElementById('result-screen').classList.add('hidden');
+      document.getElementById('quiz-screen').classList.remove('hidden');
+
+      const modeBadge = document.getElementById('mode-badge');
+      modeBadge.textContent = 'MODE TINJAUAN PEMBAHASAN LENGKAP';
+      modeBadge.className = 'px-3 py-1 rounded-lg text-xs font-extrabold uppercase tracking-wider bg-emerald-100 text-emerald-900 border border-emerald-300';
+
+      document.getElementById('timer-box').classList.add('hidden');
+      document.getElementById('timer-box').classList.remove('flex');
+      document.getElementById('legend-doubt').classList.add('hidden');
+      document.getElementById('legend-eval').classList.remove('hidden');
+
+      renderQuestion();
+      renderNavGrid();
+    }
+
+    function resetToHome() {
+      clearInterval(timerInterval);
+      isReviewMode = false;
+      document.getElementById('quiz-screen').classList.add('hidden');
+      document.getElementById('result-screen').classList.add('hidden');
+      document.getElementById('start-screen').classList.remove('hidden');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
